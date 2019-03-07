@@ -7,12 +7,12 @@
     .w3-ubuntu {
         font-family: 'Anton', sans-serif;
         }
-    .explicacion{  
+    .explicacion{
     text-align: justify;
     }
 
 .Sobre{
-    background-image: url(Github-ignacio);
+    /*background-image: url(Github-ignacio);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
