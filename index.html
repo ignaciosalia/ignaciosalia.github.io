@@ -13,7 +13,7 @@
 </head>
 <body >
 <!-- Menu parte superior, con el titulo de mi nombre además de un contato a mi pagina de github-->
-    <div class="w3-margin w3-dysplay-container">
+    <div class="w3-margin w3-dysplay-container w3-mobile">
         <div class="menu w3-bar w3-round w3-col s4">
             <div class="w3-dropdown-hover ">
                 <button class="w3-button w3-teal w3-text-white ">Menu</button>
@@ -35,7 +35,7 @@
 
 <!-- parte central de la pagina >
 <!-->
-	   <div class="titulo w3-container w3-margin-bottom w3-padding-12 w3-center w3-text-teal" >
+	   <div class="titulo w3-container w3-margin-bottom w3-padding-12 w3-center w3-text-teal w3-mobile" >
 
             <footer >
                 <p class=""><b> Programador, Desarrollador, Entusiasta Free Software. </b></p>
@@ -50,21 +50,50 @@
 				<!-->
 	   <div id="Sobre" class="Sobre w3-center w3-container  w3-padding-large">
            <div class="barra w3-row-padding w3-margin-top w3-text-white">
-               <div class="w3-third w3-hover-grey">
-                   <h3 class="w3-text-gray" >Proyecto 62</h3>
-                   <p class="explicacion w3-text-grey w3-hover-text-white">Fue una plataforma creada para apoyar a las escuelas de nivel secundaria a cumplir con las nuevas demandas de la reforma educativa (Mexico).</p>
-               </div>
-               <div class="w3-third w3-hover-grey">
-                   <h3 class="w3-text-gray" >Surragate</h3>
-                   <p class="explicacion w3-text-grey w3-hover-text-white">Aplicación Android, que conecta dos equipos para usar uno cómo “surrogate” y permitir que desde este equipo se contesten mensajes y redes sociales, la idea es que al viajar o se transportarse en áreas que el usuario no se siente seguro, simplemente usa el “surrogate” en el transporte y en caso de un incidente, el equipo menos costoso es el que se pierde sin información personal o contactos.</p>
-               </div>
-               <div class="w3-third w3-hover-grey">
-                   <h3 class="w3-text-gray">JislCorp Repair</h3>
-                   <p class="explicacion w3-text-grey w3-hover-text-white">Negocio local, dedicado a la reparación y mantenimiento de equipo de computo y celulares, bajo los principios del derecho a la reparación y ser dueños por completo de nuestros dispositivos. Trabajamos por ofrecer un servicio de calidad y a un precio justo, en la mayoría de nuestros productos ofrecemos una alternativa de open software o freesoftware. Para que el usuario, nuestros clientes tengan una opción libre </p>
-               </div>
+
+							 <div class=" mySlides w3-grey w3-display-container ">
+								 <img src="education.jpg" style="width:100%">
+							 	 <div class=" w3-display-right w3-container	w3-gray" >
+                   <h3 class="w3-text-white" >Proyecto 62</h3>
+                   <p class="explicacion w3-text-white ">Fue una plataforma creada para apoyar a las escuelas de nivel secundaria a cumplir con las nuevas demandas de la reforma educativa (Mexico).</p>
+								 </div>
+							 </div>
+
+							 <div class="mySlides w3-display-container w3-grey  ">
+								 <img src="android.png" style="width:100%">
+						 	 	 <div class=" w3-display-right w3-container	w3-gray w3-text-white" >
+							     <h3 >Surragate</h3>
+                   <p class="explicacion">Aplicación Android, que conecta dos equipos para usar uno cómo “surrogate” y permitir que desde este equipo se contesten mensajes y redes sociales, la idea es que al viajar o se transportarse en áreas que el usuario no se siente seguro, simplemente usa el “surrogate” en el transporte y en caso de un incidente, el equipo menos costoso es el que se pierde sin información personal o contactos.</p>
+							 </div>
+						 	</div>
+
+               <div class="mySlides w3-grey w3-display-container ">
+								 	<img src="pc-repair-tool.jpg" style="width:100%">
+								<div class=" w3-display-right w3-container	w3-gray w3-text-white" >
+								   <h3 >JislCorp Repair</h3>
+                   <p >Negocio local, dedicado a la reparación y mantenimiento de equipo de computo y celulares, bajo los principios del derecho a la reparación y ser dueños por completo de nuestros dispositivos. Trabajamos por ofrecer un servicio de calidad y a un precio justo, en la mayoría de nuestros productos ofrecemos una alternativa de open software o freesoftware. Para que el usuario, nuestros clientes tengan una opción libre </p>
+								</div>
+							 </div>
+
            </div>
         </div>
 
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+var i;
+var x = document.getElementsByClassName("mySlides");
+for (i = 0; i < x.length; i++) {
+	x[i].style.display = "none";
+}
+myIndex++;
+if (myIndex > x.length) {myIndex = 1}
+x[myIndex-1].style.display = "block";
+setTimeout(carousel, 10000); // Change image every 2 seconds
+}
+</script>
 
         <div id="Contacto" class="contacto  w3-round w3-text-teal w3-center w3-padding-12 w3-marging-bottom">
             <hr>
@@ -83,8 +112,9 @@
             </div>
             </div>
             <p class="w3-text-grey w3-left">Gracias por visitar para más información favor de contactarme. :P</p>
-            <hr class="w3-bottom">
+
         </div>
     </div>
+		</div>
 </body>
 </html>
