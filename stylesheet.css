@@ -71,4 +71,7 @@
         background-attachment: scroll;
         min-height: 400px;
       }
+      .explicacion{
+        text-align: justify;
+      }
     }
