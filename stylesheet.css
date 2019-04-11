@@ -18,11 +18,34 @@
       background-position: center;
       background-size: cover;
     }
-
-    .mySlides{
-      /*background-image: url(Github-ignacio);*/
-        /*background-image: url(pc-repair-tool.jpg);*/
+    .smalltitulo{
+      display: none;
     }
+@media only screen and (max-width : 600px) {
+  .mySlides{
+    /*background-image: url(Github-ignacio);*/
+      /*background-image: url(pc-repair-tool.jpg);*/
+        font-size: 5px;
+  }
+  .explicacion{
+        display: none;
+  }
+  .titulos{
+    text-align: center;
+  }
+  .nombre{
+    display: none;
+  }
+  .smalltitulo{
+    display: block;
+    color: grey;
+    text-align: center;
+  }
+  .me{
+    display: none;
+  }
+}
+
 
     .repair{
        background-image: url(pc-repair-tool.jpg);
