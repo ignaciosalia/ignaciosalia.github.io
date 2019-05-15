@@ -25,7 +25,7 @@
 	    </a>
 	    <a href="#home" class="w3-bar-item w3-button">HOME</a>
 	    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-	    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> SERVICIOS </a>
+	    <a href="#servicios" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> SERVICIOS </a>
 	    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACTO </a>
 	    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
 	      <i class="fa fa-search"></i>
@@ -35,7 +35,7 @@
 		<!-- Navbar on small screens -->
 	  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
 	    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE</a>
-	    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">SERVICIOS</a>
+	    <a href="#servicios" class="w3-bar-item w3-button" onclick="toggleFunction()">SERVICIOS</a>
 	    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACTO</a>
 	    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
 	  </div>
@@ -45,7 +45,7 @@
 <!-- Nombre de marca -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="w3-hide-small">JislCorp Repair</span></span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity" id="home-text">JislCorp Repair</span>
   </div>
 </div>
 
@@ -100,6 +100,57 @@
 
 </div>
 
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide w3-black w3-center w3-padding-large">Servicios</span>
+  </div>
+</div>
+
+<!-- Servicios-->
+<div class="w3-content w3-container w3-padding-64" id="servicios">
+  <h3 class="w3-center">Nuestros Servios</h3>
+  <p class="w3-center"><em>Estos son nuestros servicios <br> Escoja el que más se acomada con a sus necesidades <br> O contactenes para brindarle una atención personalizada</em></p><br>
+
+
+<!--Display de los 4 servicios que se ofrecen -->
+<div class="w3-row-padding w3-center">
+	<div class="pc-repair-tool  w3-col s6">
+		<div class="">
+			<img src="pc-repair.jpg" style="width:100%" onclick="onClick(this)" class="pc-repair-tool w3-hover-opacity" alt="Servicio básico y preventivo, limpieza interna del equipo, cambio de pasta térmica y optimización del Sistema Operativo">
+			<p class="w3-hover-opacity w3-text-grey">Servicio y Mantenimiento de PC</p>
+		</div>
+	</div>
+
+	<div class="w3-col s6">
+		<img src="instalacion-so.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Se realiza mantenimiento básico, más reinstalación de Sistema Operativo.Se puede pedir instalar software extra">
+		<p class="w3-hover-opacity w3-text-grey">Reinstalación de Sistema Operativo</p>
+	</div>
+</div>
+
+<div class="w3-row-padding w3-center w3-section">
+	<div class="w3-col s6">
+		<img src="pc-repair-tool.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cambio de parte y pruebas para confirmar el correcto funcionamiento del equipo en su totalidad">
+		<p class="w3-hover-opacity w3-text-grey">Servicio de PC y Cambio de partes</p>
+	</div>
+
+	<div class="w3-col s6">
+		<img src="cell-phone-repair.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Reparación celular, se realiza reinstalación de sistema y cambio de partes dependiendo de disponibilidad. ">
+		<p class="w3-hover-opacity w3-text-grey">Reparacion Celular</p>
+	</div>
+</div>
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+</div>
+
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
   <h3 class="w3-center">DONDE TRABAJAMOS</h3>
@@ -131,6 +182,16 @@
 </footer>
 
 <script>
+
+//Acción para poder aumentar la imagen
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
 function myFunction() {
@@ -143,13 +204,13 @@ function myFunction() {
 
 }
 
-/ Used to toggle the menu on small screens when clicking on the menu button
+// Used to toggle the menu on small screens when clicking on the menu button
 function toggleFunction() {
     var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
+    if (x.className.indexOf("w3-show","w3-white") == -1) {
+        x.className += ("w3-show","w3-white");
     } else {
-        x.className = x.className.replace(" w3-show", "");
+        x.className = x.className.replace("w3-show","w3-white");
     }
 }
 
