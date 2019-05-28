@@ -21,7 +21,7 @@
     .smalltitulo{
       display: none;
     }
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 1000px) {
   .mySlides{
     /*background-image: url(Github-ignacio);*/
       /*background-image: url(pc-repair-tool.jpg);*/
@@ -45,8 +45,16 @@
     display: none;
   }
 
-  .home-text{
-    font-size: 20px;
+  #myNavbar{
+    display: none;
+  }
+  #navDemo{
+    display: block;
+  }
+
+
+  #home-text{
+    font-size: 15px;
   }
 }
 
@@ -64,13 +72,18 @@
     }
 
     /* Create a Parallax Effect */
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .tech-meetings {
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
     }
 
+    /*Imagen de Cursos y eventos*/
+    .tech-meetings{
+        background-image: url('tech-mettings.jpg');
+        min-height: 100%;
+    }
     /* First image (Logo. Full height) */
     .bgimg-1 {
       background-image: url('first_impresion.jpg');
@@ -100,7 +113,7 @@
 
     /* Turn off parallax scrolling for tablets and phones */
     @media only screen and (max-device-width: 1600px) {
-      .bgimg-1, .bgimg-2, .bgimg-3 {
+      .bgimg-1, .bgimg-2, .bgimg-3, .tech-meetings {
         background-attachment: scroll;
         min-height: 400px;
       }

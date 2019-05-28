@@ -18,8 +18,8 @@
 
 <body>
 
-	<div class="w3-top">
-	  <div class="w3-bar w3-white" id="myNavbar">
+	<div class="w3-top" id="myNavbar">
+	  <div class="w3-bar w3-white" >
 	    <a class="w3-bar-item w3-button w3-hover-white  w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
 	      <i class="fa fa-bars"></i>
 	    </a>
@@ -31,16 +31,22 @@
 	      <i class="fa fa-search"></i>
 	    </a>
 	  </div>
-
-		<!-- Navbar on small screens -->
-	  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-	    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE</a>
-	    <a href="#servicios" class="w3-bar-item w3-button" onclick="toggleFunction()">SERVICIOS</a>
-	    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACTO</a>
-	    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
-	  </div>
 	</div>
-
+	<!-- Navbar on small screens -->
+	<div id="navDemo" class="menu w3-top w3-bar w3-round w3-teal w3-text-white">
+			<div class="w3-dropdown-hover w3-teal">
+					<button class="w3-button">Menu</button>
+					<div class="w3-dropdown-content w3-bar-block w3-border w3-round">
+							<a href="index.html#about" class=" w3-bar-item w3-button">Sobre</a>
+							<a href="index.html#contact" class="w3-bar-item w3-button">Contacto</a>
+							<a href="index.html#servicios" class="w3-bar-item w3-button">Servicios</a>
+							<a href="#" class="w3-bar-item w3-button">Lenguaje</a>
+					</div>
+			</div>
+			<a href="jislcorprepair.html">
+			<img class=" w3-circle w3-right w3-bar-item" alt="github" src="Github-ignacio" height=35 width=35>
+			</a>
+	</div>
 
 <!-- Nombre de marca -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
