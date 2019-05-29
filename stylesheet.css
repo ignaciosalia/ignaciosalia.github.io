@@ -21,6 +21,15 @@
     .smalltitulo{
       display: none;
     }
+
+    #home-text-cell{
+      display: none;
+    }
+
+    #contacto-cell{
+      display: none;
+    }
+
 @media only screen and (max-width : 1000px) {
   .mySlides{
     /*background-image: url(Github-ignacio);*/
@@ -54,7 +63,17 @@
 
 
   #home-text{
-    font-size: 15px;
+    display: none;
+  }
+
+  #home-text-cell{
+    display: block;
+  }
+  #Contacto{
+    display: none;
+  }
+  #contacto-cell{
+    display: block;
   }
 }
 
