@@ -33,16 +33,11 @@
 	  </div>
 	</div>
 	<!-- Navbar on small screens -->
-	<div id="navDemo" class="menu w3-top w3-bar w3-round w3-teal w3-text-white">
-			<div class="w3-dropdown-hover w3-teal">
-					<button class="w3-button">Menu</button>
-					<div class="w3-dropdown-content w3-bar-block w3-border w3-round">
-							<a href="index.html#about" class=" w3-bar-item w3-button">Sobre</a>
-							<a href="index.html#contact" class="w3-bar-item w3-button">Contacto</a>
-							<a href="index.html#servicios" class="w3-bar-item w3-button">Servicios</a>
-							<a href="#" class="w3-bar-item w3-button">Lenguaje</a>
-					</div>
-			</div>
+	<div id = "navDemo" class="menu w3-top w3-bar w3-round w3-white w3-text-grey">
+							<a href="#home" class=" w3-bar-item w3-button">Home</a>
+							<a href="#about" class="w3-bar-item w3-button">Sobre</a>
+							<a href="#servicios" class="w3-bar-item w3-button">Servicios</a>
+							<a href="#contact" class="w3-bar-item w3-button">Contacto</a>
 			<a href="jislcorprepair.html">
 			<img class=" w3-circle w3-right w3-bar-item" alt="github" src="Github-ignacio" height=35 width=35>
 			</a>
@@ -52,6 +47,7 @@
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity" id="home-text">JislCorp Repair</span>
+		<span class="w3-center w3-padding-large w3-black w3-small w3-wide w3-animate-opacity" id="home-text-cell">JislCorp Repair</span>
   </div>
 </div>
 
@@ -205,21 +201,19 @@ function myFunction() {
 		if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
 				navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + "w3-white";
 		} else {
-				navbar.className = navbar.className.replace(" w3-bar w3-card w3-animate-top w3-white", "");
+				navbar.className = navbar.className.replace(" w3-bar"+ "w3-card"+ "w3-animate-top"+ "w3-white", "");
 		}
 
 }
+window.onscroll = function() {scrollFunction()};
 
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show","w3-white") == -1) {
-        x.className += ("w3-show","w3-white");
-    } else {
-        x.className = x.className.replace("w3-show","w3-white");
-    }
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navDemo").style.top = "0";
+  } else {
+    document.getElementById("navDemo").style.top = "-50px";
+  }
 }
-
 </script>
 
 </body>

@@ -18,6 +18,9 @@
       background-position: center;
       background-size: cover;
     }
+    .nombre{
+      display: block;
+    }
     .smalltitulo{
       display: none;
     }
@@ -27,6 +30,10 @@
     }
 
     #contacto-cell{
+      display: none;
+    }
+
+    #navDemo{
       display: none;
     }
 
@@ -42,9 +49,7 @@
   .titulos{
     text-align: center;
   }
-  .nombre{
-    display: none;
-  }
+  
   .smalltitulo{
     display: block;
     color: grey;
@@ -67,8 +72,9 @@
   }
 
   #home-text-cell{
-    display: block;
+    display: inline;
   }
+
   #Contacto{
     display: none;
   }

@@ -18,31 +18,32 @@
 <body >
 <!-- Menu parte superior, con el titulo de mi nombre además de un contato a mi pagina de github-->
     <div class="inicio w3-margin w3-dysplay-container w3-mobile">
-        <div class="menu w3-bar w3-round w3-teal w3-text-white">
-            <div class="w3-dropdown-hover w3-teal">
-                <button class="w3-button">Menu</button>
-                <div class="w3-dropdown-content w3-bar-block w3-border w3-round">
-                    <a href="index.html#Sobre" class=" w3-bar-item w3-button">Sobre</a>
-                    <a href="index.html#Contacto" class="w3-bar-item w3-button">Contacto</a>
-										<a href="index.html#Cursos" class="w3-bar-item w3-button">Cursos</a>
-										<a href="jislcorprepair.html" class="w3-bar-item w3-button">JislCorp</a>
-                    <a href="#" class="w3-bar-item w3-button">Lenguaje</a>
-                </div>
-						</div>
-            <a href="jislcorprepair.html">
-            <img class=" w3-circle w3-right w3-bar-item" alt="github" src="Github-ignacio" height=35 width=35>
-            </a>
-				</div>
-
-		<h2 class="w3-text-white w3-center w3-display-topmiddle nombre">Ignacio Salia</h2>
-
+	        <div id = "navbar" class="menu w3-top w3-bar w3-round w3-teal w3-text-white">
+	            <div class="w3-dropdown-hover w3-teal">
+	                <button class="w3-button">Menu</button>
+	                <div class="w3-dropdown-content w3-bar-block w3-border w3-round">
+	                    <a href="index.html#Sobre" class=" w3-bar-item w3-button">Sobre</a>
+	                    <a href="index.html#Contacto" class="w3-bar-item w3-button">Contacto</a>
+											<a href="index.html#Cursos" class="w3-bar-item w3-button">Cursos</a>
+											<a href="jislcorprepair.html" class="w3-bar-item w3-button">JislCorp</a>
+	                    <a href="#" class="w3-bar-item w3-button">Lenguaje</a>
+	                </div>
+							</div>
+	            <a href="jislcorprepair.html">
+	            <img class=" w3-circle w3-right w3-bar-item" alt="github" src="Github-ignacio" height=35 width=35>
+	            </a>
+					</div>
 
 <!-- parte central de la pagina >
 <!-->
 	   <div class="titulo w3-container w3-margin-bottom w3-padding-12 w3-center w3-text-teal w3-mobile" >
-
-			 			<h1 class="smalltitulo"> Ignacio Salia</h1>
+			 			<header>
+							<h1 class="w3-text-grey w3-center w3-display-topmiddle nombre">Ignacio Salia</h1>
+							<br>
+						</header>
             <footer >
+							<h1 class="w3-text-grey w3-center w3-display-topmiddle smalltitulo">Ignacio Salia</h1>
+							<br>
                 <p class="me"><b> Programador, Entusiasta del Free Software y Todo lo que es tecnología. </b></p>
             </footer>
            <hr>
@@ -141,4 +142,15 @@
 		</div>
 </div>
 </body>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+</script>
 </html>
