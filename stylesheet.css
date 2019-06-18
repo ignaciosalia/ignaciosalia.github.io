@@ -49,12 +49,15 @@
   .titulos{
     text-align: center;
   }
-  
+  .nombre{
+    display: none;
+  }
   .smalltitulo{
     display: block;
     color: grey;
     text-align: center;
   }
+  
   .me{
     display: none;
   }
