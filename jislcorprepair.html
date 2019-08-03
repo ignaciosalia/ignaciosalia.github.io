@@ -5,17 +5,15 @@
 		JislCorp Repair
 	</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-	<!-- Se usa para poder establecer el tipo de caracteres que recibe el
-	     navegador. -->
+	<!-- Se usa para poder establecer el tipo de caracteres que recibe el navegador. -->
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link  href="https://fonts.google.com/?selection.family=Space+Mono|Anton|Aref+Ruqaa|Ubuntu" rel="styleshet">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 <body>
 
 	<div class="w3-top" id="myNavbar">
@@ -27,13 +25,26 @@
 	    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
 	    <a href="#servicios" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> SERVICIOS </a>
 	    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACTO </a>
-	    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+	    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-grey">
 	      <i class="fa fa-search"></i>
 	    </a>
 	  </div>
 	</div>
 	<!-- Navbar on small screens -->
-	<div id = "navDemo" class="menu w3-top w3-bar w3-round w3-white w3-text-grey">
+<div id = "navDemo" class="menu w3-top w3-bar w3-round w3-white w3-text-grey">
+	<div class="w3-bar w3-white" >
+		<a class="w3-bar-item w3-button w3-hover-white  w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+			<i class="fa fa-bars"></i>
+		</a>
+		<a href="#home" class="w3-bar-item w3-button">HOME</a>
+		<a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+		<a href="#servicios" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> SERVICIOS </a>
+		<a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACTO </a>
+		<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-grey">
+			<i class="fa fa-search"></i>
+		</a>
+	</div>
+</div>
 <!-- Nombre de marca -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
@@ -166,8 +177,6 @@
   <div class="w3-xlarge w3-section">
   <a href=https://web.facebook.com/JislCorp-Repair-293709961299868>  <i  class="fa fa-facebook-official w3-hover-opacity"></i></a>
     <i class="fa fa-instagram w3-hover-opacity"></i>
-
-
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>

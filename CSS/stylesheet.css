@@ -1,0 +1,159 @@
+*{
+
+  padding: 0;
+}
+body{
+  margin-top: 0 !important;
+  background-color: rgba( 11, 13, 15, 1);
+}
+li{
+  color:white;
+}
+.presentacion{
+  background-image: url("../Ignacio Salia_files/Github-ignacio.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  color: white;
+  height: 95vh;
+  display: flex;
+  }
+#main-title{
+  font-size: 6em;
+  margin: 0;
+}
+.titulo{
+  background: rgba(213, 219, 219, 0.8);
+  position: absolute;
+  text-align: left;
+  color: white;
+  margin-top: auto;
+  margin-left: 70px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 7px;
+  border-radius: 3px;
+}
+.high-lights{
+  position: absolute;
+  margin-left: 70px;
+  padding-left: 15px;
+  margin-top: 0;
+}
+.sobre {
+  position: absolute;
+  right: 0px;
+  margin-top: 100px;
+  padding: 10px;
+  margin-right: 7rem;
+  margin-top: 0;
+}
+
+#trabajos{
+  font-size: 4em;
+  text-align: center;
+  color: white;
+}
+#me{
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+#proyectos img{
+  opacity: 0.5;
+}
+
+.proyecto62 div{
+  font-weight: bold;
+  color: #fff;
+
+}
+
+.surrogate div{
+  font-weight: bold;
+  color: #fff;
+}
+
+.jislcorpRepair div{
+  font-weight: bold;
+  color: #fff;
+}
+
+.motorParts div{
+  font-weight: bold;
+  color: #fff;
+}
+
+.contacto div{
+  height: 70vh;
+}
+
+ul#leyenda{
+  list-style: none;
+}
+
+ul#leyenda li{
+  display: inline;
+}
+
+.contacto p{
+  color: white;
+}
+
+.contacto h1{
+  color: grey;
+}
+
+.contacto {
+	width: 100wh;
+	height: 75vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #ACB7C2, #84A4C3, #6295C6, #3F86CA);
+	background-size: 400% 75%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+#leyenda1{
+  font-size: 3em;
+  text-align: center;
+  color: white;
+}
