@@ -48,6 +48,12 @@ li{
   margin-right: 7rem;
   margin-top: 0;
 }
+.sobrecel{
+  display: none;
+}
+hr{
+  display: none;
+}
 
 #trabajos{
   font-size: 4em;
@@ -116,6 +122,10 @@ ul#leyenda li{
 	animation: Gradient 15s ease infinite;
 }
 
+.contactoCel{
+  display: none;
+}
+
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
@@ -156,4 +166,46 @@ ul#leyenda li{
   font-size: 3em;
   text-align: center;
   color: white;
+}
+
+@media only screen and (max-width : 1000px) {
+  .presentacion{
+    height: 100vh;
+  }
+
+  .titulo{
+    margin-left: 0px;
+  }
+  #main-title{
+    font-size: 4em;
+    margin: 0;
+    text-align: center;
+  }
+  .high-lights{
+    position: absolute;
+    margin-left: 0px;
+    padding-left: 15px;
+    margin-top: 0;
+  }
+  .sobre {
+    display: none;
+  }
+  .sobrecel{
+    display: inline-block;
+  }
+  .high-lights h3{
+      color: white;
+      text-align: center;
+
+  }
+  .highCel{
+      background-color: rgba( 205, 205, 205, 0.9);
+
+  }
+  .contacto{
+    display: none;
+  }
+  .contactoCel{
+    display: block;
+  }
 }
