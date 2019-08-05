@@ -115,10 +115,10 @@ ul#leyenda li{
 	width: 100wh;
 	height: 75vh;
 	color: #fff;
-	background: linear-gradient(-45deg, #ACB7C2, #84A4C3, #6295C6, #3F86CA);
+	background: linear-gradient(-45deg, #67aaf5, #83b9f5, #a6ccf5, #e5edf6);
 	background-size: 400% 75%;
 	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 10s ease infinite;
 	animation: Gradient 15s ease infinite;
 }
 
