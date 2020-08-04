@@ -173,7 +173,7 @@ ul#leyenda li{
   color: white;
 }
 
-@media only screen and (max-width : 1000px) {
+@media only screen and (max-width : 800px) {
   .presentacion{
     height: 100vh;
   }
@@ -212,5 +212,11 @@ ul#leyenda li{
   }
   .contactoCel{
     display: block;
+  }
+
+  #proyectos{
+    display: grid;
+    grid-template-columns: auto;
+
   }
 }
