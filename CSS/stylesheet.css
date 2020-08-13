@@ -131,6 +131,25 @@ ul#leyenda li{
   display: none;
 }
 
+input{
+  animation-name: contact;
+  animation-duration: 4s;
+  position: relative;
+  color: #FFF;
+  background-color: #516888;
+  border-style: none;
+  padding: 5px;
+}
+
+input:hover{
+  transform: scale(1.2);
+  background-color: #515877;
+
+}
+
+
+
+
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
