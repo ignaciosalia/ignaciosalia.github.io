@@ -24,6 +24,27 @@
   font-weight: bold;
 }
 
+.contacto2{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: auto;
+  width: 50%;
+}
+.contacto2 > a{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFF;
+  font-size: 45px;
+}
+
+.despedida{
+  text-align: center;
+  color: #FFF;
+  font-size: 30px;
+  font-family: 'Recursive', sans-serif;
+}
+
 @media  only screen and (max-width : 700px) {
 
   .titulo1{
