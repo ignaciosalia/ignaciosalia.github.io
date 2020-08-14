@@ -35,7 +35,7 @@
   margin-left: auto;
   margin-right: auto;
   color: #FFF;
-  font-size: 45px;
+  font-size: 4em;
 }
 
 .despedida{
@@ -71,6 +71,6 @@
  }
 
  .contacto2 > a{
-   font-size: 2em;
+   font-size: 3em;
  }
 }
