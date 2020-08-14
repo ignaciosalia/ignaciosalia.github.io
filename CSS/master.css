@@ -58,9 +58,9 @@ footer{
 
   .titulo1{
     height: 50vh;
-    padding-top: 5em;
+    padding-top: 15vh;
     background-image: linear-gradient(#34344f, #000);
-    padding-top: 10%;
+
     display:block;
   }
 
