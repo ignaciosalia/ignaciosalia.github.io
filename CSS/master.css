@@ -1,16 +1,15 @@
 .titulo1{
-  height: 20em;
+  height: 75vh;
   width: 100%;
   display: block;
   color: #fff;
   text-align: center;
   padding-top: 2em;
   background-image: linear-gradient(#34344f, #000);
-
   margin-right: 10%;
 }
  .titulo1 > h1{
-   font-size: 50px;
+   font-size: 80px;
    font-family: 'Anton', cursive;
  }
 
@@ -28,14 +27,15 @@
 @media  only screen and (max-width : 700px) {
 
   .titulo1{
-    height: 100%;
+
     padding: 1em;
     background-image: linear-gradient(#34344f, #000);
   }
 
   .titulo1 > h1{
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Anton', cursive;
+    margin-bottom: 15px;
   }
 
   .titulo1 > h2 {
