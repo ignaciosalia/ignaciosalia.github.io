@@ -1,3 +1,7 @@
+body{
+  display: block;
+
+}
 .titulo1{
   height: 75vh;
   width: 100%;
