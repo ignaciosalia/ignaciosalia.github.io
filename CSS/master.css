@@ -7,6 +7,7 @@
   text-align: center;
   padding-top: 2em;
   background-image: linear-gradient(#34344f, #000);
+  position: static;
 }
  .titulo1 > h1{
    font-size: 80px;
@@ -25,15 +26,18 @@
 }
 
 footer{
-  display:inline-block;
-  position: relative;
+  display:block;
+  position: static;
+  margin: 1px;
 }
 
 .contacto2{
+  position: static;
   display: grid;
   grid-template-columns: auto auto auto;
   margin: auto;
   width: 50%;
+  position: static;
 }
 .contacto2 > a{
   display: block;
@@ -50,13 +54,13 @@ footer{
   font-family: 'Recursive', sans-serif;
 }
 
-@media  only screen and (max-width : 600px) {
+@media  only screen and (max-width : 800px) {
 
   .titulo1{
-    height: 20vh;
     padding: 1em;
     background-image: linear-gradient(#34344f, #000);
-    padding-top: 10%
+    padding-top: 10%;
+    display:block;
   }
 
   .titulo1 > h1{
@@ -75,6 +79,10 @@ footer{
    font-family: 'Recursive', sans-serif;
    font-weight: bold;
  }
+
+footer{
+  position: absolute;
+}
 
  .contacto2 > a{
    font-size: 5em;
