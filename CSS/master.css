@@ -48,4 +48,8 @@
    font-family: 'Recursive', sans-serif;
    font-weight: bold;
  }
+
+ .contacto2 > a{
+   font-size: 30px;
+ }
 }
