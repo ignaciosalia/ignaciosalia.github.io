@@ -45,7 +45,7 @@
   font-family: 'Recursive', sans-serif;
 }
 
-@media  only screen and (max-width : 700px) {
+@media  only screen and (max-width : 600px) {
 
   .titulo1{
     height: 50vh;
