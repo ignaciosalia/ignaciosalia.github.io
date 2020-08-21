@@ -27,7 +27,7 @@
 
 footer{
   display:block;
-  position: static;
+
   margin: 1px;
 }
 
@@ -37,7 +37,7 @@ footer{
   grid-template-columns: auto auto auto;
   margin: auto;
   width: 50%;
-  position: static;
+
 }
 .contacto2 > a{
   display: block;
@@ -87,7 +87,46 @@ footer{
   grid-template-columns: auto auto auto;
   margin: auto;
   width: 50%;
+}
+ .contacto2 > a{
+   font-size: 5em;
+   margin-left: auto;
+   margin-right: auto;
+ }
+}
+
+@media only screen and (max-width: 600px) {
+  .titulo1{
+    height: 100vh;
+    padding-top: 15vh;
+    background-image: linear-gradient(#34344f, #000);
+
+    display:block;
+  }
+
+  .titulo1 > h1{
+    font-size: 3em;
+    font-family: 'Anton', cursive;
+    margin-bottom: 15px;
+  }
+
+  .titulo1 > h2 {
+    font-size: 2.5em;
+    font-family:'Recursive', sans-serif;
+  }
+
+ .titulo1 > p {
+   font-size:1em;
+   font-family: 'Recursive', sans-serif;
+   font-weight: bold;
+ }
+
+.contacto2{
   position: static;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: auto;
+  width: 50%;
 }
  .contacto2 > a{
    font-size: 5em;
