@@ -1,0 +1,46 @@
+
+body{
+  background-color: #242736;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.linksContacto{
+  position: static;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 0.5em;
+  width: 100%;
+  color: #F0F0F0;
+}
+
+.infobase{
+  display: block;
+  margin-left: 2em;
+}
+
+.infobase > h1{
+  font-size: 145px;
+}
+.infobase > p{
+  font-size: 80px;
+}
+
+.contacto{
+  margin-left: auto;
+  margin-right: 2em;
+  margin-top: 3em;
+}
+.contacto > a{
+  font-size: 60px;
+  color: #F0F0F0;
+}
+
+
+img{
+  background-color: #EF3434;
+  width: 50vw;
+  height: 60vw;
+  border-radius: 50%;
+  margin-left: -15em;
+  margin-bottom:  -50em;
+}
