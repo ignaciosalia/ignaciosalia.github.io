@@ -2,15 +2,14 @@
 body{
   background-color: #242736;
   font-family: 'Rajdhani', sans-serif;
+    color: #F0F0F0;
 }
 
 .linksContacto{
   position: static;
   display: grid;
-  grid-template-columns: auto auto;
-  margin-top: 0.5em;
+  grid-template-columns: 60% 40%;
   width: 100%;
-  color: #F0F0F0;
 }
 
 .infobase{
@@ -19,22 +18,41 @@ body{
 }
 
 .infobase > h1{
-  font-size: 145px;
+  font-size: 7em;
+  font-weight: normal;
 }
 .infobase > p{
-  font-size: 80px;
+  font-size: 4em;
+}
+.detalles{
+  font-size: 2em;
 }
 
 .contacto{
-  margin-left: auto;
-  margin-right: 2em;
-  margin-top: 3em;
+  display:grid;
+  grid-template-columns: auto auto;
+  margin-top: -15em;
+  padding: 6em;
+  width: 160px;
+  border-radius: 5px;
+  transform: rotate(45deg);
 }
-.contacto > a{
-  font-size: 60px;
-  color: #F0F0F0;
+.contacto > div {
+  text-align: center;
+  font-size: 35px;
+  width: 200px;
+  margin: 10px;
+  padding: 5px;
+  background-color: #EF3434;
 }
 
+.vcard > p, .disenioweb >p, .ecommerce > p, .menufood > p, .sabermas >p, .nothing > p{
+  font-size: 25px;
+}
+
+i{
+    color: #F0F0F0;
+}
 
 img{
   background-color: #EF3434;
