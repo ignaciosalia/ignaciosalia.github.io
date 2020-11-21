@@ -18,7 +18,7 @@ body{
   margin-left: 2em;
 }
 
-.infobase > h1{
+.infobase > h1, .servicios > h1{
   font-size: 7em;
   font-weight: normal;
 }
@@ -33,11 +33,13 @@ body{
   display:grid;
   grid-template-columns: auto auto;
   margin-top: -9em;
-  margin-left: 2em;
+  margin-left: 10em;
   padding: 4em;
   width: 160px;
   border-radius: 5px;
   transform: rotate(25deg);
+  align-content: center;
+  justify-content: center;
 }
 .contacto > div {
   text-align: center;
@@ -46,6 +48,7 @@ body{
   margin: 10px;
   padding: 5px;
   background-color: #EF3434;
+
 }
 
 .vcard > p, .disenioweb >p, .ecommerce > p, .menufood > p, .sabermas >p, .nothing > p{
@@ -64,4 +67,9 @@ img{
   border-radius: 50%;
   margin-left: -15em;
   margin-bottom:  -50em;
+}
+
+.servicios{
+  width: 100%
+  height: 100vh;
 }
