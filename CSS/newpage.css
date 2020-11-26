@@ -48,7 +48,6 @@ body{
   margin: 10px;
   padding: 5px;
   background-color: #EF3434;
-
 }
 
 .vcard > p, .disenioweb >p, .ecommerce > p, .menufood > p, .sabermas >p, .nothing > p{
@@ -72,4 +71,33 @@ img{
 .servicios{
   width: 100%
   height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .linksContacto{
+    position: static;
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    height: 90vh;
+  }
+
+  .infobase{
+    display: block;
+    margin-top: -3em;
+    margin-bottom: 2em;
+  }
+.venta, .detalles{
+  display: none;
+}
+
+.contacto{
+  margin-left: 2.5em;
+  transform: rotate(10deg);
+
+}
+.servicios{
+  margin-top: 20em;
+}
 }
