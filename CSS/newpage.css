@@ -95,12 +95,12 @@ img{
 .contacto{
   margin-left: auto;
   margin-right: auto;
-  font-size: 120px;
+  font-size: 80px;
 }
 .contacto > div {
   text-align: center;
-  font-size: 120px;
-  width: 200px;
+  font-size: 80px;
+  width: 300px;
   margin: 10px;
   padding: 5px;
   background-color: #EF3434;
@@ -108,12 +108,12 @@ img{
 }
 
 .vcard > p, .disenioweb >p, .ecommerce > p, .menufood > p, .sabermas >p, .nothing > p{
-  font-size: 55px;
+  font-size: 35px;
   text-align: center;
 }
 
 .servicios{
-  margin-top: 20em;
+  margin-top: 2em;
 }
 
 }
