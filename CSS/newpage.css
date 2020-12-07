@@ -146,6 +146,11 @@ body{
 }
 @media only screen and (max-width: 500px) {
 
+  body{
+    background-color:#F1F1F9 ;
+    font-family: 'Rajdhani', sans-serif;
+      color: #242736;
+  }
   .linksContacto{
     position: static;
     display: grid;
