@@ -92,7 +92,7 @@ img{
     margin-right: auto;
   }
   .infobase > h1, .servicios > h1{
-    font-size: 4em;
+    font-size: 5em;
     font-weight: normal;
     margin-left: auto;
     margin-right: auto;
@@ -115,16 +115,16 @@ img{
 .contacto > div {
   display: block;
   text-align: center;
-  font-size: 50px;
-  width: 27vw;
+  font-size: 60px;
+  width: 33vw;
   margin: 5px;
   padding: 5px;
   background-color:;
   transform: rotate(10deg);
 }
 
-.vcard > p, .disenioweb >p, .ecommerce > p, .menufood > p, .sabermas >p, .nothing > p{
-  font-size: 35px;
+.vcard > a, .disenioweb >a, .ecommerce > a, .menufood > a, .sabermas >a, .nothing > a{
+  font-size: 55px;
   text-align: center;
   color: #F0F0F0;
   text-decoration: none;
@@ -172,16 +172,17 @@ img{
 .contacto > div {
   display: block;
   text-align: center;
-  font-size: 50px;
-  width: 27vw;
+  font-size: 30px;
+  width: 40vw;
   margin: 5px;
   padding: 5px;
   background-color:;
   transform: rotate(10deg);
 }
 
-.vcard > p, .disenioweb >p, .ecommerce > p, .menufood > p, .sabermas >p, .nothing > p{
-  font-size: 25px;
+
+.vcard > a, .disenioweb >a, .ecommerce > a, .menufood > a, .sabermas >a, .nothing > a{
+  font-size: 30px;
   text-align: center;
   color: #F0F0F0;
   text-decoration: none;
@@ -190,7 +191,7 @@ img{
 
 
 .servicios{
-  margin-top: -75em;
+  margin-top: -95em;
 }
 
 img{
@@ -199,7 +200,7 @@ img{
   height: 60vw;
   border-radius: 50%;
   margin-left: -5em;
-  margin-bottom:  -85em;
+  margin-bottom:  -105em;
 }
 
 }
