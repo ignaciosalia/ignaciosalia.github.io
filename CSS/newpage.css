@@ -120,7 +120,7 @@ img{
   margin: 5px;
   padding: 5px;
   background-color:;
-  transform: rotate(0deg);
+  transform: rotate(10deg);
 }
 
 .vcard > p, .disenioweb >p, .ecommerce > p, .menufood > p, .sabermas >p, .nothing > p{
@@ -166,7 +166,7 @@ img{
   margin-top: -2em;
   padding: 0px;
   padding-top: 2em;
-  transform: rotate(0deg);
+  transform: rotate(10deg);
 
 }
 .contacto > div {
