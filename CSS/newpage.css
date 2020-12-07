@@ -82,6 +82,12 @@ img{
 
 @media only screen and (max-width: 1000px) {
 
+body{
+  background-color:#F0F0F0 ;
+  font-family: 'Rajdhani', sans-serif;
+    color: #242736;
+}
+
   .linksContacto{
     position: static;
     display: grid;
@@ -121,6 +127,7 @@ img{
   padding: 5px;
   background-color:;
   transform: rotate(10deg);
+  color: #F0F0F0;
 }
 
 .vcard > a, .disenioweb >a, .ecommerce > a, .menufood > a, .sabermas >a, .nothing > a{
