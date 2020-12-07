@@ -80,42 +80,47 @@ img{
   margin-top: 15em;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
 
   .linksContacto{
     position: static;
     display: grid;
     grid-template-columns: auto;
-    width: 90%;
+    width:auto;
+      height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .infobase > h1, .servicios > h1{
+    font-size: 4em;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .infobase{
-    display: block;
-    margin-top: -3em;
-
-  }
 .venta, .detalles{
   display: none;
 }
 
 .contacto{
-  width: 1%;
   margin-right: auto;
-  font-size: 100px;
-
-  margin-bottom: 1em;
-  margin-left:auto;
-  padding: 2em;
+  margin-left: auto;
+  font-size: 50px;
+  margin-top: -2em;
+  padding: 0px;
+  padding-top: 2em;
   transform: rotate(0deg);
+
 }
 .contacto > div {
+  display: block;
   text-align: center;
-  font-size: 80px;
-  width: 250px;
-  margin: 10px;
+  font-size: 50px;
+  width: 27vw;
+  margin: 5px;
   padding: 5px;
   background-color:;
-    transform: rotate(15deg);
+  transform: rotate(0deg);
 }
 
 .vcard > p, .disenioweb >p, .ecommerce > p, .menufood > p, .sabermas >p, .nothing > p{
@@ -128,7 +133,7 @@ img{
 
 
 .servicios{
-  margin-top: -56em;
+  margin-top: -4em;
 }
 
 }
@@ -138,15 +143,16 @@ img{
     position: static;
     display: grid;
     grid-template-columns: auto;
-    width:0.5%;
-    margin-left: 0px;
+    width:auto;
+      height: auto;
+    margin-left: auto;
     margin-right: auto;
   }
   .infobase > h1, .servicios > h1{
     font-size: 4em;
     font-weight: normal;
-    margin-left: 1px;
-    margin-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .venta, .detalles{
@@ -155,9 +161,11 @@ img{
 
 .contacto{
   margin-right: auto;
+  margin-left: auto;
   font-size: 50px;
   margin-top: -2em;
-  margin-left:1.6em;
+  padding: 0px;
+  padding-top: 2em;
   transform: rotate(0deg);
 
 }
@@ -165,11 +173,11 @@ img{
   display: block;
   text-align: center;
   font-size: 50px;
-  width: 32vw;
+  width: 27vw;
   margin: 5px;
   padding: 5px;
   background-color:;
-  transform: rotate(15deg);
+  transform: rotate(0deg);
 }
 
 .vcard > p, .disenioweb >p, .ecommerce > p, .menufood > p, .sabermas >p, .nothing > p{
