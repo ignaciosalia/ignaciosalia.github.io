@@ -12,6 +12,7 @@ body{
   width: 100%;
   height: 100vh;
   margin-bottom: 5em;
+
 }
 
 .infobase{
@@ -21,7 +22,8 @@ body{
 
 .infobase > h1, .servicios > h1{
   font-size: 7em;
-  font-weight: normal;
+  font-weight: bold;
+  color:  #F0F0F0;
 }
 .venta{
   font-size: 4em;
@@ -98,10 +100,11 @@ body{
     margin-right: auto;
   }
   .infobase > h1, .servicios > h1{
-    font-size: 5em;
+    font-size: 6em;
     font-weight: normal;
     margin-left: auto;
     margin-right: auto;
+    color:#242736;
   }
 
 .venta, .detalles{
@@ -161,10 +164,11 @@ body{
     margin-right: auto;
   }
   .infobase > h1, .servicios > h1{
-    font-size: 4em;
+    font-size: 6em;
     font-weight: normal;
     margin-left: auto;
     margin-right: auto;
+    color: #242736;
   }
 
 .venta, .detalles{
@@ -188,7 +192,6 @@ body{
   width: 40vw;
   margin: 5px;
   padding: 5px;
-  background-color:;
   transform: rotate(10deg);
 }
 
