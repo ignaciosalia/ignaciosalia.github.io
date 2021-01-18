@@ -85,9 +85,9 @@ img{
 @media only screen and (max-width: 1000px) {
 
 body{
-  background-color:#F1F1F9 ;
+  background-color:#6364d5;
   font-family: 'Rajdhani', sans-serif;
-    color: #242736;
+    color: #999999;
 }
 
   .linksContacto{
@@ -150,25 +150,22 @@ body{
 @media only screen and (max-width: 500px) {
 
   body{
-    background-color:#F1F1F9 ;
+    background-color:#6387cd;
     font-family: 'Rajdhani', sans-serif;
-      color: #242736;
+      color: #F0F0F0;
   }
   .linksContacto{
     position: static;
     display: grid;
     grid-template-columns: auto;
-    width:auto;
-      height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: -2em;
   }
   .infobase > h1, .servicios > h1{
     font-size: 6em;
     font-weight: normal;
     margin-left: auto;
     margin-right: auto;
-    color: #242736;
+    color: #F0F0F0  ;
   }
 
 .venta, .detalles{
@@ -188,18 +185,23 @@ body{
 .contacto > div {
   display: block;
   text-align: center;
-  font-size: 30px;
-  width: 40vw;
+  font-size: 45px;
+  width: 41vw;
   margin: 5px;
   padding: 5px;
   transform: rotate(10deg);
+  background-color:#F0F0F0 ;
+  color:#e23e4c;
+}
+i{
+    color: #e23e4c;
 }
 
 
 .vcard > a, .disenioweb >a, .ecommerce > a, .menufood > a, .sabermas >a, .nothing > a{
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
-  color: #F0F0F0;
+  color: #e23e4c;
   text-decoration: none;
     font-family: 'Rajdhani',sans-serif;
 }
