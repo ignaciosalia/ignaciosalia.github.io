@@ -85,9 +85,9 @@ img{
 @media only screen and (max-width: 1000px) {
 
 body{
-  background-color:#6364d5;
+  background-color: #242736;
   font-family: 'Rajdhani', sans-serif;
-    color: #999999;
+    color: #F0F0F0;
 }
 
   .linksContacto{
@@ -150,7 +150,7 @@ body{
 @media only screen and (max-width: 500px) {
 
   body{
-    background-color:#6387cd;
+    background-color: #242736;
     font-family: 'Rajdhani', sans-serif;
       color: #F0F0F0;
   }
