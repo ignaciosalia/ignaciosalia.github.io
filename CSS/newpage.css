@@ -104,11 +104,11 @@ body{
     font-weight: normal;
     margin-left: auto;
     margin-right: auto;
-    color:#242736;
+    color:#F0F0F0;
   }
 
 .venta, .detalles{
-  display: ;
+  display:none ;
 }
 
 .contacto{
@@ -125,7 +125,7 @@ body{
   display: block;
   text-align: center;
   font-size: 60px;
-  width: 33vw;
+  width: 38vw;
   margin: 5px;
   padding: 5px;
   background-color:;
