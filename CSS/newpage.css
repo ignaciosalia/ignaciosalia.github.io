@@ -108,7 +108,7 @@ body{
   }
 
 .venta, .detalles{
-  display: none;
+  display: ;
 }
 
 .contacto{
@@ -208,7 +208,8 @@ i{
 
 
 .servicios{
-  margin-top: -95em;
+  color: #F0F0F0;
+  margin-top: 2em;
 }
 
 img{
@@ -217,7 +218,7 @@ img{
   height: 60vw;
   border-radius: 50%;
   margin-left: -5em;
-  margin-bottom:  -105em;
+  margin-bottom:  -5em;
 }
 
 }
