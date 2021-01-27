@@ -1,0 +1,34 @@
+body{
+  background-color: #F0F0F0;
+}
+.titulo{
+  text-align: center;
+  border-bottom: #f99027;
+}
+.menuera{
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  text-align: center;
+}
+.submenu, .titulomain{
+  border-bottom: solid;
+  color: #f99027;
+}
+.submenu:hover{
+  background-color: #ffe7ca;
+}
+
+.titulomain > h1, .titulomain > h2, .submenu > h2, .subdesayuno > p, .subenchiladas > p, .arrachera, .newyork, .ribeye{
+  color: #3e3d3d;
+}
+
+.subdesayuno, .subenchiladas{
+  display: none;
+  border-top: solid;
+  color: #f99027;
+}
+
+.carnes{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
