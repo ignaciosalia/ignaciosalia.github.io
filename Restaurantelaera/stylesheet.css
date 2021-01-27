@@ -21,6 +21,9 @@ body{
 .titulomain > h1, .titulomain > h2, .submenu > h2, .subdesayuno > p, .subenchiladas > p, .arrachera, .newyork, .ribeye{
   color: #3e3d3d;
 }
+.desayuno, .enchiladas, .pozole, .infantil, .postres{
+  font-size: 55px;
+}
 
 .subdesayuno, .subenchiladas{
   display: none;
