@@ -1,6 +1,7 @@
 body{
   background-color: #F0F0F0;
-  font-size: 35px;
+  font-size: 40px;
+  font-family: 'Lato', sans-serif;
 }
 .titulo{
   text-align: center;
@@ -14,8 +15,26 @@ body{
   width: 50%;
 }
 .titulomain{
-  height: 300px;
-  
+  height: 370px;
+
+}
+
+.redes {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.facebook, .instagram{
+  text-align: center;
+  font-size: 65px;
+
+}
+
+.facebook > a, .instagram >a{
+  color: #9e6303;
 }
 .menuera{
   display: grid;
@@ -34,7 +53,7 @@ body{
   color: #3e3d3d;
 }
 .desayuno, .enchiladas, .pozole, .infantil, .postres{
-  font-size: 55px;
+  font-size: 65px;
 }
 
 .subdesayuno, .subenchiladas{
@@ -53,4 +72,7 @@ body{
 .barbacoaporsiones{
   display: grid;
   grid-template-columns: auto auto auto auto;
+}
+.aviso{
+  text-align: center;
 }
