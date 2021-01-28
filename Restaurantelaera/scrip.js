@@ -17,6 +17,12 @@ function myFunction(idchose) {
     var x = document.getElementById("myDIV7");
   }else if (idchose == 9) {
     var x = document.getElementById("myDIV8");
+  }else if (idchose == 10) {
+    var x = document.getElementById("myDIV9");
+  }else if (idchose == 11) {
+    var x = document.getElementById("myDIV10");
+  }else if (idchose == 12) {
+    var x = document.getElementById("myDIV11");
   }
 
 

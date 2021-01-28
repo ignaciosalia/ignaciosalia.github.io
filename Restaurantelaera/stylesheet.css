@@ -1,5 +1,6 @@
 body{
   background-color: #F0F0F0;
+  font-size: 35px;
 }
 .titulo{
   text-align: center;
@@ -34,4 +35,11 @@ body{
 .carnes{
   display: grid;
   grid-template-columns: auto auto auto;
+}
+.carnesdisp{
+  font-size: 35px;
+}
+.barbacoaporsiones{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
