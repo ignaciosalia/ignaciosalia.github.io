@@ -1,0 +1,22 @@
+body{
+  background-color: #242736;
+  font-family: 'Rajdhani', sans-serif;
+    color: #F0F0F0;
+}
+
+.webdesign{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%ñ
+}
+
+.infobase, .slideservicios{
+  display: block;
+
+}
+
+.infobase > h1, .slideservicios {
+  font-size: 7em;
+  font-weight: bold;
+  color:  #F0F0F0;
+}
