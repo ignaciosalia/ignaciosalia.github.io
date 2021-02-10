@@ -16,7 +16,17 @@ body{
 }
 
 .infobase > h1, .slideservicios {
-  font-size: 7em;
+  font-size: 4em;
   font-weight: bold;
   color:  #F0F0F0;
 }
+
+/*slideshow*/
+
+[data-component="slideshow"] .slide {
+    display: none;
+  }
+
+  [data-component="slideshow"] .slide.active {
+    display: block;
+  }
