@@ -1,8 +1,5 @@
 
 body{
-  background: linear-gradient(45deg, #002541 0%, #3f6fff 49%, #2a9abd 82%);
-  background-size: 200%;
-  animation: body 2s infinite;
   font-family: 'Rajdhani', sans-serif;
     color: #F0F0F0;
     width: 100%;
@@ -12,14 +9,44 @@ body{
   position: static;
   display: grid;
   grid-template-rows: auto auto;
-  height: 100vh;
+  height: 90vh;
   margin-bottom: 5em;
   
 }
 
 .infobase{
   display: block;
-  margin-left: 3em;
+    background: linear-gradient(45deg, #32a6ff 0%, #3f6fff 49%, #8d54ff 82%);
+    background-size: 200%;
+    animation: aurora 5s infinite;
+}
+@keyframes aurora {
+  0% {
+      background-position: left top;
+  }
+  25% {
+      background-position: right top;
+  }
+  50% {
+      background-position: right bottom;
+  }
+  75% {
+      background-position: left bottom;
+  }
+  100% {
+      background-position: left top;
+  }
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0;
+  transform: translateY(-50%);
+  font-size: 32px;
+  text-align: center;
+  color: white;
 }
 
 .infobase > h1, .servicios > h1{
@@ -50,6 +77,7 @@ body{
   text-align: center;
   font-size: 5rem;
   width: 450px;
+  height: auto;
   margin: 5px;
   padding: 5px;
   background-color: #1d0c80;
@@ -79,33 +107,39 @@ img{
 
 .servicios{
   width: 100%;
-  height: 100vh;
+  height: 40vh;
   margin-top: 45rem;
+    background: linear-gradient(45deg, #32a6ff 0%, #3f6fff 49%, #8d54ff 82%);
+    background-size: 200%;
+    animation: aurora 10s infinite;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 @media only screen and (max-width: 1000px) {
 
 body{
-  background-color: #242736;
   font-family: 'Rajdhani', sans-serif;
     color: #F0F0F0;
+}
+div {
+  height: 50vh;
+  width: 100%;
+  position: relative;
 }
 
   .linksContacto{
     position: static;
     display: grid;
     grid-template-columns: auto;
-    width:auto;
-      height: auto;
-    margin-left: auto;
-    margin-right: auto;
   }
   .infobase > h1, .servicios > h1{
     font-size: 9em;
     font-weight: normal;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50%;
+    margin-right: 50%;
     color:#F0F0F0;
+    text-align: left;
   }
 
 .venta, .detalles{
@@ -129,7 +163,6 @@ body{
   width: 38vw;
   margin: 5px;
   padding: 5px;
-  
   transform: rotate(10deg);
   color: #F0F0F0;
 }
@@ -144,16 +177,20 @@ body{
 
 
 .servicios{
-  margin-top: -4em;
+  margin-top: -2em;
 }
 
 }
 @media only screen and (max-width: 500px) {
 
   body{
-    background-color: #242736;
     font-family: 'Rajdhani', sans-serif;
       color: #F0F0F0;
+  }
+  div {
+    height: 10vh;
+    width: 100%;
+    position: relative;
   }
   .linksContacto{
     position: static;
@@ -214,7 +251,6 @@ i{
 }
 
 img{
-  background-color: #EF3434;
   width: 50vw;
   height: 60vw;
   border-radius: 50%;
