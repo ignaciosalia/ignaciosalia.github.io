@@ -1,23 +1,20 @@
 
 body{
   font-family: 'Rajdhani', sans-serif;
-    color: #F0F0F0;
-    width: 100%;
+  color: #F0F0F0;
 }
 
 .linksContacto{
   position: static;
   display: grid;
   grid-template-rows: auto auto;
-  height: 90vh;
-  margin-bottom: 5em;
-  
+  height: 100vh;
 }
 
 .infobase{
   display: block;
     background: linear-gradient(45deg, #32a6ff 0%, #3f6fff 49%, #8d54ff 82%);
-    background-size: 200%;
+    background-size: 100%;
     animation: aurora 5s infinite;
 }
 @keyframes aurora {
@@ -39,12 +36,8 @@ body{
 }
 .title {
   position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  margin: 0;
-  transform: translateY(-50%);
   font-size: 32px;
+  margin-bottom: 2em;
   text-align: center;
   color: white;
 }
@@ -54,9 +47,7 @@ body{
   font-weight: bold;
   color:  #F0F0F0;
 }
-.venta{
-  font-size: 4em;
-}
+
 .detalles{
   font-size: 6em;
   margin-top: 0.1em;
@@ -106,14 +97,12 @@ img{
 }
 
 .servicios{
-  width: 100%;
+  width: 110%;
   height: 40vh;
   margin-top: 45rem;
-    background: linear-gradient(45deg, #32a6ff 0%, #3f6fff 49%, #8d54ff 82%);
-    background-size: 200%;
-    animation: aurora 10s infinite;
-    margin-left: 0px;
-    margin-right: 0px;
+  background: linear-gradient(45deg, #32a6ff 0%, #3f6fff 49%, #8d54ff 82%);
+  background-size: 200%;
+  animation: aurora 10s infinite;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -136,10 +125,9 @@ div {
   .infobase > h1, .servicios > h1{
     font-size: 9em;
     font-weight: normal;
-    margin-left: 50%;
     margin-right: 50%;
     color:#F0F0F0;
-    text-align: left;
+    
   }
 
 .venta, .detalles{
@@ -178,6 +166,7 @@ div {
 
 .servicios{
   margin-top: -2em;
+  width: 118%;
 }
 
 }
