@@ -1,27 +1,29 @@
 
 body{
-  background-color: #242736;
+  background: linear-gradient(45deg, #002541 0%, #3f6fff 49%, #2a9abd 82%);
+  background-size: 200%;
+  animation: body 2s infinite;
   font-family: 'Rajdhani', sans-serif;
     color: #F0F0F0;
+    width: 100%;
 }
 
 .linksContacto{
   position: static;
   display: grid;
-  grid-template-columns: auto 1fr;
-  width: 100%;
+  grid-template-rows: auto auto;
   height: 100vh;
   margin-bottom: 5em;
-
+  
 }
 
 .infobase{
   display: block;
-  margin-left: 2em;
+  margin-left: 3em;
 }
 
 .infobase > h1, .servicios > h1{
-  font-size: 7em;
+  font-size: 8em;
   font-weight: bold;
   color:  #F0F0F0;
 }
@@ -29,33 +31,32 @@ body{
   font-size: 4em;
 }
 .detalles{
-  font-size: 20px;
-  padding-top:  1.5em;
+  font-size: 6em;
+  margin-top: 0.1em;
 }
 
 .contacto{
   display:grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   margin-top: -8em;
-  margin-left: 10em;
+  margin-left: 15em;
   padding: 5em;
-  width: 200px;
+  width: 50%;
   border-radius: 5px;
-  transform: rotate(15deg);
   align-content: center;
   justify-content: center;
 }
 .contacto > div {
   text-align: center;
-  font-size: 45px;
-  width: 250px;
+  font-size: 5rem;
+  width: 450px;
   margin: 5px;
   padding: 5px;
-  background-color: #EF3434;
+  background-color: #1d0c80;
 }
 
 .vcard > a, .disenioweb >a, .ecommerce > a, .menufood >a, .sabermas >a, .nothing > a{
-  font-size: 35px;
+  font-size: 5rem;
   text-align: center;
   font-family: 'Rajdhani',sans-serif;
   text-decoration: none;
@@ -68,18 +69,18 @@ i{
 }
 
 img{
-  background-color: #EF3434;
+  background-color: #161c66;
   width: 50vw;
   height: 60vw;
   border-radius: 50%;
   margin-left: -15em;
-  margin-bottom:  -35em;
+  margin-bottom:  -10em;
 }
 
 .servicios{
-  width: 100%
+  width: 100%;
   height: 100vh;
-  margin-top: 3em;
+  margin-top: 45rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -100,7 +101,7 @@ body{
     margin-right: auto;
   }
   .infobase > h1, .servicios > h1{
-    font-size: 6em;
+    font-size: 9em;
     font-weight: normal;
     margin-left: auto;
     margin-right: auto;
@@ -108,7 +109,7 @@ body{
   }
 
 .venta, .detalles{
-  display:none ;
+  display: block;
 }
 
 .contacto{
@@ -128,7 +129,7 @@ body{
   width: 38vw;
   margin: 5px;
   padding: 5px;
-  background-color:;
+  
   transform: rotate(10deg);
   color: #F0F0F0;
 }
@@ -161,7 +162,7 @@ body{
     margin-top: -2em;
   }
   .infobase > h1, .servicios > h1{
-    font-size: 6em;
+    font-size: 8em;
     font-weight: normal;
     margin-left: auto;
     margin-right: auto;
@@ -169,7 +170,7 @@ body{
   }
 
 .venta, .detalles{
-  display: none;
+  display: block;
 }
 
 .contacto{
@@ -217,8 +218,8 @@ img{
   width: 50vw;
   height: 60vw;
   border-radius: 50%;
-  margin-left: -5em;
-  margin-bottom:  -5em;
+  margin-left: 5em;
+  margin-bottom:  -1em;
 }
 
 }
