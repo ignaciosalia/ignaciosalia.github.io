@@ -4,6 +4,12 @@ body{
   color: #F0F0F0;
 }
 
+.construction{
+    color: #e23e4c;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 200px;
+}
 .linksContacto{
   position: static;
   display: grid;
