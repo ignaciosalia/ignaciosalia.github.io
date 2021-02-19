@@ -2,14 +2,26 @@
 body{
   font-family: 'Rajdhani', sans-serif;
   color: #F0F0F0;
+ 
 }
 
-.construction{
-    color: #e23e4c;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 200px;
+.thenew{
+  align-items: center;
 }
+.construction{
+    
+    color: transparent;
+    text-align: center;
+    font-size: 220px;
+    height: 55vh;
+    font-family: 'Anton';
+    display: flex;
+    background-image: url(https://unsplash.it/1000);
+    background-size: cover;
+    background-clip: text;
+    
+  }
+  /*
 .linksContacto{
   position: static;
   display: grid;
@@ -20,26 +32,10 @@ body{
 .infobase{
   display: block;
     background: linear-gradient(45deg, #32a6ff 0%, #3f6fff 49%, #8d54ff 82%);
-    background-size: 100%;
+    background-size: 5%;
     animation: aurora 5s infinite;
 }
-@keyframes aurora {
-  0% {
-      background-position: left top;
-  }
-  25% {
-      background-position: right top;
-  }
-  50% {
-      background-position: right bottom;
-  }
-  75% {
-      background-position: left bottom;
-  }
-  100% {
-      background-position: left top;
-  }
-}
+
 .title {
   position: absolute;
   font-size: 32px;
@@ -56,9 +52,9 @@ body{
 
 .detalles{
   font-size: 6em;
-  margin-top: 0.1em;
+ 
 }
-
+/*
 .contacto{
   display:grid;
   grid-template-columns: auto auto auto;
@@ -103,6 +99,7 @@ img{
 }
 
 .servicios{
+  text-align: center;
   width: 110%;
   height: 40vh;
   margin-top: 45rem;
@@ -117,11 +114,7 @@ body{
   font-family: 'Rajdhani', sans-serif;
     color: #F0F0F0;
 }
-div {
-  height: 50vh;
-  width: 100%;
-  position: relative;
-}
+
 
   .linksContacto{
     position: static;
@@ -253,4 +246,4 @@ img{
   margin-bottom:  -1em;
 }
 
-}
+}*/
