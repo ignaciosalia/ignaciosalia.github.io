@@ -10,17 +10,59 @@ body{
 }
 .construction{
     
-    color: transparent;
+    color: #6e1111;
     text-align: center;
     font-size: 220px;
-    height: 55vh;
+    height:100vh;
+    width: 100vw;
     font-family: 'Anton';
     display: flex;
-    background-image: url(https://unsplash.it/1000);
-    background-size: cover;
-    background-clip: text;
     
+   
+   
   }
+
+.aurora-outer {
+  margin-top: -10em;
+  margin-left: 0.1em;
+  background: linear-gradient(45deg, #064779 0%, #3f6fff 49%, #0522ca 82%);
+  
+  animation: aurora 35s infinite;
+}
+
+.aurora-inner {
+  background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.15));
+  
+  animation: aurora 15s ;
+}
+
+@keyframes aurora {
+  0% {
+      background-position: left top;
+  }
+  25% {
+      background-position: right top;
+  }
+  50% {
+      background-position: right bottom;
+  }
+  75% {
+      background-position: left bottom;
+  }
+  100% {
+      background-position: left top;
+  }
+}
+
+div {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+
+
   /*
 .linksContacto{
   position: static;
