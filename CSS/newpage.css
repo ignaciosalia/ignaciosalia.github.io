@@ -1,291 +1,49 @@
 
 body{
   font-family: 'Rajdhani', sans-serif;
-  color: #F0F0F0;
- 
+  margin-left: 0.1em;
+  background: linear-gradient(-45deg, #c57f69, #27386b, #354d91, #0a0092);
+  background-size: 300% 300%;
+  animation: gradient 5s ease infinite;
 }
 
 .thenew{
   align-items: center;
 }
 .construction{
-    
-    color: #6e1111;
-    text-align: center;
-    font-size: 220px;
-    height:100vh;
-    width: 100vw;
+    color: #27386b;
+    text-align: justify; 
+    font-size: 80px;
+    height: 60%;
+    width: 90vw;
     font-family: 'Anton';
-    display: flex;
-    
-   
-   
+    display: grid;
+    grid-template-columns: auto;
+    margin: 80px;
+    background-color: aliceblue;
   }
 
-.aurora-outer {
-  margin-top: -10em;
-  margin-left: 0.1em;
-  background: linear-gradient(45deg, #064779 0%, #3f6fff 49%, #0522ca 82%);
-  
-  animation: aurora 35s infinite;
-}
+  .construction > h1{
+    margin-left: 25px;
+  }
+  .construction > p{
+    font-size: 40px;
+    margin-top: auto;
+    margin-left: 25px;
+    text-align: justify;
+  }
 
-.aurora-inner {
-  background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.15));
-  
-  animation: aurora 15s ;
-}
-
-@keyframes aurora {
+@keyframes gradient {
   0% {
-      background-position: left top;
-  }
-  25% {
-      background-position: right top;
-  }
-  50% {
-      background-position: right bottom;
-  }
-  75% {
-      background-position: left bottom;
-  }
-  100% {
-      background-position: left top;
-  }
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+  
 }
 
-div {
-  display: block;
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
-
-
-
-  /*
-.linksContacto{
-  position: static;
-  display: grid;
-  grid-template-rows: auto auto;
-  height: 100vh;
-}
-
-.infobase{
-  display: block;
-    background: linear-gradient(45deg, #32a6ff 0%, #3f6fff 49%, #8d54ff 82%);
-    background-size: 5%;
-    animation: aurora 5s infinite;
-}
-
-.title {
-  position: absolute;
-  font-size: 32px;
-  margin-bottom: 2em;
-  text-align: center;
-  color: white;
-}
-
-.infobase > h1, .servicios > h1{
-  font-size: 8em;
-  font-weight: bold;
-  color:  #F0F0F0;
-}
-
-.detalles{
-  font-size: 6em;
  
-}
-/*
-.contacto{
-  display:grid;
-  grid-template-columns: auto auto auto;
-  margin-top: -8em;
-  margin-left: 15em;
-  padding: 5em;
-  width: 50%;
-  border-radius: 5px;
-  align-content: center;
-  justify-content: center;
-}
-.contacto > div {
-  text-align: center;
-  font-size: 5rem;
-  width: 450px;
-  height: auto;
-  margin: 5px;
-  padding: 5px;
-  background-color: #1d0c80;
-}
-
-.vcard > a, .disenioweb >a, .ecommerce > a, .menufood >a, .sabermas >a, .nothing > a{
-  font-size: 5rem;
-  text-align: center;
-  font-family: 'Rajdhani',sans-serif;
-  text-decoration: none;
-  color: #F0F0F0;
-}
-
-
-i{
-    color: #F0F0F0;
-}
-
-img{
-  background-color: #161c66;
-  width: 50vw;
-  height: 60vw;
-  border-radius: 50%;
-  margin-left: -15em;
-  margin-bottom:  -10em;
-}
-
-.servicios{
-  text-align: center;
-  width: 110%;
-  height: 40vh;
-  margin-top: 45rem;
-  background: linear-gradient(45deg, #32a6ff 0%, #3f6fff 49%, #8d54ff 82%);
-  background-size: 200%;
-  animation: aurora 10s infinite;
-}
-
-@media only screen and (max-width: 1000px) {
-
-body{
-  font-family: 'Rajdhani', sans-serif;
-    color: #F0F0F0;
-}
-
-
-  .linksContacto{
-    position: static;
-    display: grid;
-    grid-template-columns: auto;
-  }
-  .infobase > h1, .servicios > h1{
-    font-size: 9em;
-    font-weight: normal;
-    margin-right: 50%;
-    color:#F0F0F0;
-    
-  }
-
-.venta, .detalles{
-  display: block;
-}
-
-.contacto{
-  margin-right: auto;
-  margin-left: auto;
-  font-size: 50px;
-  margin-top: -2em;
-  padding: 0px;
-  padding-top: 2em;
-  transform: rotate(0deg);
-
-}
-.contacto > div {
-  display: block;
-  text-align: center;
-  font-size: 60px;
-  width: 38vw;
-  margin: 5px;
-  padding: 5px;
-  transform: rotate(10deg);
-  color: #F0F0F0;
-}
-
-.vcard > a, .disenioweb >a, .ecommerce > a, .menufood > a, .sabermas >a, .nothing > a{
-  font-size: 55px;
-  text-align: center;
-  color: #F0F0F0;
-  text-decoration: none;
-    font-family: 'Rajdhani',sans-serif;
-}
-
-
-.servicios{
-  margin-top: -2em;
-  width: 118%;
-}
-
-}
-@media only screen and (max-width: 500px) {
-
-  body{
-    font-family: 'Rajdhani', sans-serif;
-      color: #F0F0F0;
-  }
-  div {
-    height: 10vh;
-    width: 100%;
-    position: relative;
-  }
-  .linksContacto{
-    position: static;
-    display: grid;
-    grid-template-columns: auto;
-    margin-top: -2em;
-  }
-  .infobase > h1, .servicios > h1{
-    font-size: 8em;
-    font-weight: normal;
-    margin-left: auto;
-    margin-right: auto;
-    color: #F0F0F0  ;
-  }
-
-.venta, .detalles{
-  display: block;
-}
-
-.contacto{
-  margin-right: auto;
-  margin-left: auto;
-  font-size: 50px;
-  margin-top: -2em;
-  padding: 0px;
-  padding-top: 2em;
-  transform: rotate(0deg);
-
-}
-.contacto > div {
-  display: block;
-  text-align: center;
-  font-size: 45px;
-  width: 41vw;
-  margin: 5px;
-  padding: 5px;
-  transform: rotate(10deg);
-  background-color:#F0F0F0 ;
-  color:#e23e4c;
-}
-i{
-    color: #e23e4c;
-}
-
-
-.vcard > a, .disenioweb >a, .ecommerce > a, .menufood > a, .sabermas >a, .nothing > a{
-  font-size: 35px;
-  text-align: center;
-  color: #e23e4c;
-  text-decoration: none;
-    font-family: 'Rajdhani',sans-serif;
-}
-
-
-.servicios{
-  color: #F0F0F0;
-  margin-top: 2em;
-}
-
-img{
-  width: 50vw;
-  height: 60vw;
-  border-radius: 50%;
-  margin-left: 5em;
-  margin-bottom:  -1em;
-}
-
-}*/
