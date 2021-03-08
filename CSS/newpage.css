@@ -46,4 +46,29 @@ body{
   
 }
 
+.misclientes{
+  color: #27386b;
+  text-align: justify; 
+  height: 60%;
+  width: 90vw;
+  font-family: 'Anton';
+  display: grid;
+  grid-template-columns: auto;
+  margin: 80px;
+  background-color: aliceblue;
+}
+.clientes {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  align-items: center;
+}
+.clientes > h2 {
+  font-size: larger;
+}
+.ultimosclientes{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
  
