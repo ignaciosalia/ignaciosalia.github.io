@@ -14,9 +14,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
             $(document).ready(function(){
-                $(".thenew").addClass("animate__animated animate__fadeInDown")
-            });
-        </script>
+                $(".thenew").addClass("animate__animated animate__fadeInDown");
+                $(".misclientes").hide();
+                $(".experiencia").hide();
+                $("#nextone").click(function(){
+                  $(".misclientes").show("slow", function() {
+                    var n = $(document).height();
+                    $('html, body').animate({ scrollTop: n }, 250);
+                  });
+                });
+                $("#nexttwo").click(function(){
+                  $(".experiencia").show("slow", function() {
+                    var n = $(document).height();
+                    $('html, body').animate({ scrollTop: n }, 250);
+                  });
+                });
+                
+            });     
+    </script>
   </head>
   <body>
 
@@ -25,28 +40,53 @@
           <div class="construction">
             <h1 >Ignacio Salia</h1>
             <p>Me dedico a ayudar a PYMES a hacer negocios en internet</p>
+            <button id="nextone">Clientes</button>
+            
           </div>
       </div>
   </div>
 
 
-  <div class="misclientes">
-    <h2>Estos son algunos de mis clientes</h2>
-    <div class="clients">
-      <div class="ultimosclientes">
-      <div class="restaurantes">
-        <h3>La Era Restuarante</h3>
-      </div>
-      <div class="jomati">
-        <h3>Jomati</h3>
-      </div>
-      <div class="vcard">
-        <h3>V-Card</h3>
-      </div>
+  <div class="misclientes" id="misclientes">
+    <div class="noseve">    
+        <div class="clientes">
+          <div class="ultimosclientes">
+          <div class="restaurantes">
+            <h3>La Era Restuarante</h3>
+          </div>
+          <div class="jomati">
+            <h3>Jomati</h3>
+          </div>
+          <div class="vcard">
+          <h3>V-Card</h3>
+        </div>
+        </div>
+        <div class="jislcorp">
+          <h3>JislCorp</h3>
+        </div>
+        <button id="nexttwo">Clientes</button>
+     </div>
     </div>
-      <div class="jislcorp">
-        <h3>JislCorp</h3>
-      </div>
+  </div>
+
+  <div class="experiencia" id="experiencia">
+    <div class="noseve">    
+        <div class="todas">
+          <div class="ultexperiencia">
+          <div class="educacion">
+            <h3>Educacion</h3>
+          </div>
+          <div class="resume">
+            <h3>Resume CV</h3>
+          </div>
+          <div class="vcard">
+          <h3>V-Card</h3>
+        </div>
+        </div>
+        <div class="jislcorp">
+          <h3>JislCorp</h3>
+        </div>
+     </div>
     </div>
   </div>
  

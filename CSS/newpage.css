@@ -9,18 +9,21 @@ body{
 
 .thenew{
   align-items: center;
+  
 }
 .construction{
     color: #27386b;
     text-align: justify; 
-    font-size: 80px;
-    height: 60%;
+    font-size: 70px;
     width: 90vw;
     font-family: 'Anton';
     display: grid;
     grid-template-columns: auto;
     margin: 80px;
-    background-color: aliceblue;
+    padding-right: 5px;
+    background-color: rgb(241, 247, 253, 0.7);
+    border-radius: 2%;
+    align-items: center;
   }
 
   .construction > h1{
@@ -43,32 +46,53 @@ body{
 	100% {
 		background-position: 0% 50%;
 	}
-  
 }
 
-.misclientes{
+#nextone, #nexttwo{
+  font-size: 35px;
+  width: 200px;
+  margin-bottom: 2%;
+  margin-left: auto;
+  
+  border: none;
+  color:aliceblue;
+  background: linear-gradient(45deg, #c57f69, #27386b, #354d91, #0a0092);
+  background-size: 200% 200%;
+  animation: gradient 5s ease infinite;
+  border-radius: 5px;
+}
+
+.misclientes, .experiencia{
   color: #27386b;
   text-align: justify; 
-  height: 60%;
+  height: 60vh;
   width: 90vw;
   font-family: 'Anton';
-  display: grid;
-  grid-template-columns: auto;
   margin: 80px;
-  background-color: aliceblue;
+  background-color: rgb(241, 247, 253, 0.7);
+  border-radius: 15px;
+  display: block;
 }
-.clientes {
+
+
+.clientes, .todas {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
   text-align: center;
   align-items: center;
 }
-.clientes > h2 {
-  font-size: larger;
-}
-.ultimosclientes{
+
+.ultimosclientes, .ultexperiencia{
   display: grid;
   grid-template-columns: auto auto auto;
+ 
+}
+
+.ultimosclientes > div, .ultexperiencia > div{
+  color:aliceblue;
+  background:#27386b ;
+  margin: 15px;
+  text-align: center;
 }
 
  
