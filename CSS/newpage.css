@@ -2,13 +2,9 @@
 body{
   font-family: 'Rajdhani', sans-serif;
   margin-left: 0.1em;
-  background: linear-gradient(-45deg, #c57f69, #27386b, #354d91, #0a0092);
+  background: linear-gradient(-45deg,  #c57f69, #27386b, #354d91, #f7af52);
   background-size: 300% 300%;
   animation: gradient 5s ease infinite;
-}
-
-.aurora-outer{
-  
 }
 .thenew{
   align-items: center;
@@ -24,12 +20,13 @@ body{
     grid-template-columns: auto auto;
     margin: 80px;
     padding-right: 5px;
+    padding-left: 5px;
     background-color: rgb(241, 247, 253, 0.7);
-    border-radius: 2%;
+    border-radius: 15px;
     align-items: center;
     background-image: url("../images/foto-portfolio-dos-colores-gris.gif");
     background-repeat: no-repeat;
-    background-size: 500px 500px;
+    background-size: 510px 510px;
     background-position:right;
     background-blend-mode: color;
   }
@@ -38,7 +35,7 @@ body{
     margin-left: 25px;
   }
   .construction > p{
-    font-size: 35px;
+    font-size: 25px;
     margin-top: auto;
     margin-left: 25px;
     text-align: justify;
@@ -62,20 +59,26 @@ body{
   width: 200px;
   margin-bottom: 2%;
   margin-left: auto;
-  
   border: none;
   color:aliceblue;
   background: linear-gradient(45deg, #c57f69, #27386b, #354d91, #0a0092);
   background-size: 200% 200%;
   animation: gradient 5s ease infinite;
-  border-radius: 5px;
+  border-radius: 7px;
+}
+#nextone{
+  margin-top: 300px;
+  margin-left: 85px;
+}
+
+#nexttwo{
+  margin-bottom: 3%;
+  margin-right: 20%;
 }
 
 .misclientes, .experiencia{
-  
   color: #27386b;
   text-align: justify; 
-  height: 60vh;
   width: 90vw;
   font-family: 'Anton';
   margin: 80px;
@@ -86,6 +89,7 @@ body{
 
 
 .clientes, .todas {
+  padding-top: 25px;
   display: grid;
   grid-template-rows: auto auto;
   text-align: center;
@@ -97,12 +101,43 @@ body{
   grid-template-columns: auto auto auto;
  
 }
+.ultimosclientes > div{
+  width: 400px;
+  height: 400px;
+  background-color: #FFF;
+}
+.ultimosclientes > div:hover{
+  opacity: 0.4;
+}
+.restaurantes{
+  width: 400px;
+ align-content: center;
+ 
+}
+.restaurantes > img{
+  max-width: 100%;  
+}
+
+.laera, .jomati{
+  margin: 0%;
+  width: 400px;
+  height: 300px;
+}
+
+.jislcorp{
+  height: 300px;
+  background-image: url("../images/Logo-IgnacioSalia-monograma.png");
+  background-size: 320px 320px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .ultimosclientes > div, .ultexperiencia > div{
-  color:aliceblue;
-  background:#27386b ;
+  
+  color:#354d91;
   margin: 15px;
   text-align: center;
+  border-radius: 5px;
 }
 
  

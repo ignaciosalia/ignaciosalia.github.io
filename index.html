@@ -19,14 +19,14 @@
                 $(".experiencia").hide();
                 $("#nextone").click(function(){
                   $(".misclientes").show("slow", function() {
-                    var n = $(document).height();
-                    $('html, body').animate({ scrollTop: n }, 250);
+                    var n = $(".misclientes").height();
+                    $('html, body').animate({ scrollTop: 600 }, 2000);
                   });
                 });
                 $("#nexttwo").click(function(){
                   $(".experiencia").show("slow", function() {
                     var n = $(document).height();
-                    $('html, body').animate({ scrollTop: n }, 250);
+                    $('html, body').animate({ scrollTop: n });
                   });
                 });
                 
@@ -40,7 +40,7 @@
           <div class="construction">
             <div>
               <h1 >Ignacio Salia</h1>
-              <p>Me dedico a ayudar a PYMES a hacer negocios en internet</p>
+              <p>Me dedico a ayudar a PYMES a hacer negocios en <br> internet</p>
               <p></p>
             </div>
            <div class="me">
@@ -55,18 +55,24 @@
     <div class="noseve">    
         <div class="clientes">
           <div class="ultimosclientes">
-          <div class="restaurantes">
-            <h3>La Era Restuarante</h3>
-          </div>
+            <div class="restaurantes">
+              <a href="https://ignaciosalia.github.io/Restaurantelaera/menulaera.html">
+             <img class="laera" src="images/menu-la-era.png" alt="Restaurante la Era menu"> </a>
+              <p>Menus digitales <br>con codigo QR</p>
+            </div>
           <div class="jomati">
-            <h3>Jomati</h3>
+            <a href="https://www.facebook.com/Jomati-112725223773690">
+              <img class="laera" src="images/Untitled-twitter-rosa-claro.jpg" alt="Restaurante la Era menu"> </a>
+              <p>Comercio en linea</p>
           </div>
           <div class="vcard">
-          <h3>V-Card</h3>
+            <a href="https://www.facebook.com/Jomati-112725223773690">
+              <img class="laera" src="images/v-card-example.png" alt="Restaurante la Era menu"> </a>
+              <h3>Menus en Linea</h3>
         </div>
         </div>
         <div class="jislcorp">
-          <h3>JislCorp</h3>
+         
         </div>
         <button id="nexttwo">Conocerme más</button>
      </div>
@@ -87,9 +93,11 @@
           <h3>V-Card</h3>
         </div>
         </div>
+        <div></div>
         <div class="jislcorp">
-          <h3>JislCorp</h3>
+      
         </div>
+        <div></div>
      </div>
     </div>
   </div>
