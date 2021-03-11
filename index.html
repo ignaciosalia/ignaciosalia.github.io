@@ -8,47 +8,78 @@
     <link rel="stylesheet" href="CSS/newpage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Roboto+Mono:wght@400;500&family=RocknRoll+One&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
             $(document).ready(function(){
                 $(".thenew").addClass("animate__animated animate__fadeInDown");
                 $(".misclientes").hide();
                 $(".experiencia").hide();
-                $("#nextone").click(function(){
+                /*$("#nextone").click(function(){
                   $(".misclientes").show("slow", function() {
                     var n = $(".misclientes").height();
-                    $('html, body').animate({ scrollTop: 600 }, 2000);
+                    n = n -100;
+                    $('html, body').animate({ scrollTop: n - 150 }, 2000);
                   });
-                });
-                $("#nexttwo").click(function(){
+                });*/
+                $(window).scroll(function(){
+                  if($(this).scrollTop() > 10){
+                    $('.misclientes').show(1500);
+                  }else{
+                    
+                    $('.misclientes').hide(1000);
+                  }
+                })
+               /* $("#nexttwo").click(function(){
                   $(".experiencia").show("slow", function() {
                     var n = $(document).height();
                     $('html, body').animate({ scrollTop: n });
                   });
-                });
+                });*/
+                $(window).scroll(function(){
+                  if($(this).scrollTop() > 700){
+                    $('.experiencia').show(1500);
+                  }else{
+                    
+                    $('.experiencia').hide(1000);
+                  }
+                })
                 
             });     
     </script>
   </head>
   <body>
 
-    <div class="aurora-outer aurora">
-        <div class="thenew aurora-inner" >
-          <div class="construction">
-            <div>
-              <h1 >Ignacio Salia</h1>
-              <p>Me dedico a ayudar a PYMES a hacer negocios en <br> internet</p>
-              <p></p>
-            </div>
-           <div class="me">
-            <button id="nextone">Conocer más</button>
-           </div>
+    <nav>
+      <ul class="menu">
+        <li class="submenu"><a href="misclientes">Clientes</a></li>
+        <li class="submenu"><a href="#experiencia">Experiencia</a></li>
+        <li class="submenu"><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+
+    <header>
+      <div class="construction">
+        <div class="quiensoy">
+          <div>
+            <h1 >Ignacio Salia</h1>
           </div>
+         <div class="me">
+          <!--<button id="nextone">Conocer más</button>-->
+          <img class="ayo" src="images/foto-portfolio-dos-colores-azul.gif" alt="El señor desarrollador">
+         </div>
+        </div>
+       <div>
+        <p>Ayudo a Pymes a vender en linea Creo sitios, menus en linea, commercio en linea, manejo de redes</p>
+       </div>
       </div>
-  </div>
+    </header>
+          
+   
 
 
   <div class="misclientes" id="misclientes">
@@ -58,12 +89,12 @@
             <div class="restaurantes">
               <a href="https://ignaciosalia.github.io/Restaurantelaera/menulaera.html">
              <img class="laera" src="images/menu-la-era.png" alt="Restaurante la Era menu"> </a>
-              <p>Menus digitales <br>con codigo QR</p>
+              <h3>Menus digitales con codigo QR</h3>
             </div>
           <div class="jomati">
             <a href="https://www.facebook.com/Jomati-112725223773690">
               <img class="laera" src="images/Untitled-twitter-rosa-claro.jpg" alt="Restaurante la Era menu"> </a>
-              <p>Comercio en linea</p>
+              <h3>Comercio en linea</h3>
           </div>
           <div class="vcard">
             <a href="https://www.facebook.com/Jomati-112725223773690">
@@ -74,7 +105,6 @@
         <div class="jislcorp">
          
         </div>
-        <button id="nexttwo">Conocerme más</button>
      </div>
     </div>
   </div>
