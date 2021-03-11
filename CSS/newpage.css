@@ -52,6 +52,7 @@ header{
     text-align: justify; 
     font-size: 50px;
     width: 70vw;
+    
     font-family: 'DotGothic16', sans-serif;
     display: flex;
     justify-content: space-between;
@@ -182,4 +183,8 @@ header{
   border-radius: 5px;
 }
 
+/*TO DO 
+1.- crea la versi[on de telefeno
+2.- terminar la interaccion de las secciones
+3.- pormocionar los servicios*/
  
