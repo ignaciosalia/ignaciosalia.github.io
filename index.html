@@ -16,17 +16,15 @@
     <script>
             $(document).ready(function(){
                 $(".thenew").addClass("animate__animated animate__fadeInDown");
-                //$(".misclientes").hide();
-                //$(".experiencia").hide();
+               /* $(".construction").hide();
+                $(".misclientes").hide();
+                $(".experiencia").hide();*/
                 $("#nextone").click(function(){
                   $(".misclientes").show("slow");
                 });
                 $(window).scroll(function(){
                   if($(this).scrollTop() > 10){
                     $('.misclientes').show(1500);
-                  }else{
-                    
-                    $('.misclientes').hide(1000);
                   }
                 })
                $("#nexttwo").click(function(){
@@ -36,11 +34,8 @@
                   });
                 });
                 $(window).scroll(function(){
-                  if($(this).scrollTop() > 700){
+                  if($(this).scrollTop() > 600){
                     $('.experiencia').show(1500);
-                  }else{
-                    
-                    $('.experiencia').hide(1000);
                   }
                 })
                 
@@ -49,23 +44,36 @@
   </head>
   <body>
 
-    <nav>
+   <header>
+     <span class="logo"><img class="logo" src="images/Logo-JislCorp-sin-fondo.png" alt="Logo de JislCorp"></span>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+     <nav>
       <ul class="menu">
         <li class="submenu"><a href="#misclientes" class="nextone">Clientes</a></li>
         <li class="submenu"><a href="#experiencia" class="nexttwo">Experiencia</a></li>
         <li class="submenu"><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span>
+      </span>
+    </label>
+   </header>
 
 
-    <header>
-      <div class="construction">
+    
+     
+  
+          
+   
+
+<!--
+   <div class="construction">
         <div class="quiensoy">
           <div>
             <h1 >Ignacio Salia</h1>
           </div>
          <div class="me">
-          <!--<button id="nextone">Conocer más</button>-->
           <img class="ayo" src="images/foto-portfolio-dos-colores-azul.gif" alt="El señor desarrollador">
          </div>
         </div>
@@ -73,12 +81,7 @@
         <p>Ayudo a Pymes a vender en linea Creo sitios, menus en linea, commercio en linea, manejo de redes</p>
        </div>
       </div>
-    </header>
-          
-   
-
-
-  <div class="misclientes" id="misclientes">
+   <div class="misclientes" id="misclientes">
     <div class="noseve">    
         <div class="clientes">
           <div class="ultimosclientes">
@@ -127,6 +130,8 @@
      </div>
     </div>
   </div>
+ 
+-->
  
   </body>
 </html>
