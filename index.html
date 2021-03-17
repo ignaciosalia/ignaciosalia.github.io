@@ -16,28 +16,21 @@
     <script>
             $(document).ready(function(){
                 $(".thenew").addClass("animate__animated animate__fadeInDown");
-               /* $(".construction").hide();
                 $(".misclientes").hide();
-                $(".experiencia").hide();*/
-                $("#nextone").click(function(){
-                  $(".misclientes").show("slow");
-                });
+                $(".experiencia").hide();
                 $(window).scroll(function(){
                   if($(this).scrollTop() > 10){
                     $('.misclientes').show(1500);
+                  }else if($(this).scrollTop() < 100){
+                    $('.misclientes').hide(1500);
                   }
                 })
-               $("#nexttwo").click(function(){
-                  $(".experiencia").show("slow", function() {
-                    var n = $(document).height();
-                    $('html, body').animate({ scrollTop: n });
-                  });
-                });
                 $(window).scroll(function(){
                   if($(this).scrollTop() > 600){
                     $('.experiencia').show(1500);
                   }
                 })
+                
                 
             });     
     </script>
@@ -59,79 +52,71 @@
       </span>
     </label>
    </header>
-
-
     
      
-  
+<div class="construction">
+  <div class="quiensoy">
+    <div>
+      <h1 >Ignacio Salia</h1>
+    </div>
+   <div class="me">
+    <imgi class="ayo" src="images/foto-portfolio-dos-colores-azul.gif" alt="El señor desarrollador">
+   </div>
+  </div>
+ <div>
+  <p>Ayudo a Pymes a vender en linea Creo sitios, menus en linea, commercio en internet, manejo de redes</p>
+ </div>
+</div>
           
-   
-
-<!--
-   <div class="construction">
-        <div class="quiensoy">
-          <div>
-            <h1 >Ignacio Salia</h1>
+<div class="misclientes" id="misclientes">
+  <div class="noseve">    
+      <div class="clientes">
+        <div class="ultimosclientes">
+          <div class="restaurantes">
+            <a href="https://ignaciosalia.github.io/Restaurantelaera/menulaera.html">
+           <img class="laera" src="images/menu-la-era.png" alt="Restaurante la Era menu"> </a>
+            <h3>Menus digitales con codigo QR</h3>
           </div>
-         <div class="me">
-          <img class="ayo" src="images/foto-portfolio-dos-colores-azul.gif" alt="El señor desarrollador">
-         </div>
+        <div class="jomati">
+          <a href="https://www.facebook.com/Jomati-112725223773690">
+            <img class="laera" src="images/Untitled-twitter-rosa-claro.jpg" alt="Restaurante la Era menu"> </a>
+            <h3>Comercio en linea</h3>
         </div>
-       <div>
-        <p>Ayudo a Pymes a vender en linea Creo sitios, menus en linea, commercio en linea, manejo de redes</p>
-       </div>
+        <div class="vcard">
+          <a href="https://www.facebook.com/Jomati-112725223773690">
+            <img class="laera" src="images/v-card-example.png" alt="Restaurante la Era menu"> </a>
+            <h3>Menus en Linea</h3>
       </div>
-   <div class="misclientes" id="misclientes">
-    <div class="noseve">    
-        <div class="clientes">
-          <div class="ultimosclientes">
-            <div class="restaurantes">
-              <a href="https://ignaciosalia.github.io/Restaurantelaera/menulaera.html">
-             <img class="laera" src="images/menu-la-era.png" alt="Restaurante la Era menu"> </a>
-              <h3>Menus digitales con codigo QR</h3>
-            </div>
-          <div class="jomati">
-            <a href="https://www.facebook.com/Jomati-112725223773690">
-              <img class="laera" src="images/Untitled-twitter-rosa-claro.jpg" alt="Restaurante la Era menu"> </a>
-              <h3>Comercio en linea</h3>
-          </div>
-          <div class="vcard">
-            <a href="https://www.facebook.com/Jomati-112725223773690">
-              <img class="laera" src="images/v-card-example.png" alt="Restaurante la Era menu"> </a>
-              <h3>Menus en Linea</h3>
-        </div>
-        </div>
-        <div class="jislcorp">
-         
-        </div>
-     </div>
-    </div>
+      </div>
+      <div class="jislcorp">
+       
+      </div>
+   </div>
   </div>
+</div>
 
-  <div class="experiencia" id="experiencia">
-    <div class="noseve">    
-        <div class="todas">
-          <div class="ultexperiencia">
-          <div class="educacion">
-            <h3>Educacion</h3>
-          </div>
-          <div class="resume">
-            <h3>Resume CV</h3>
-          </div>
-          <div class="vcard">
-          <h3>V-Card</h3>
+<div class="experiencia" id="experiencia">
+  <div class="noseve">    
+      <div class="todas">
+        <div class="ultexperiencia">
+        <div class="educacion">
+          <h3>Educacion</h3>
         </div>
+        <div class="resume">
+          <h3>Resume CV</h3>
         </div>
-        <div></div>
-        <div class="jislcorp">
-      
-        </div>
-        <div></div>
-     </div>
-    </div>
+        <div class="vcard">
+        <h3>V-Card</h3>
+      </div>
+      </div>
+      <div></div>
+      <div class="jislcorp">
+    
+      </div>
+      <div></div>
+   </div>
   </div>
- 
--->
+</div>
  
   </body>
 </html>
