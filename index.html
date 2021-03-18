@@ -28,6 +28,8 @@
                 $(window).scroll(function(){
                   if($(this).scrollTop() > 600){
                     $('.experiencia').show(1500);
+                  }else if($(this).scrollTop() < 100){
+                    $('.experiencia').hide(1500);
                   }
                 })
                 

@@ -12,8 +12,9 @@ body{
   font-family: 'RocknRoll One', sans-serif;*/
   margin-left: 0;
   background: linear-gradient(-45deg,  #e6947b, #0e1836, #071e5c, #eebb78);
-  background-size: 120% 120%;
+  background-size: 500% 500%;
   animation: gradient 5s ease infinite;
+  height: 3000px;
 }
 header{
   top:0;
@@ -72,7 +73,7 @@ nav a:hover{
   display: block;
   background-color: white;
   height: 12px;
-  width:2em;
+  width:3em;
   border-radius: 5px;
 }
 .nav-toggle-label span::before,/*se va a a repetir arriba y abajo lo que se define arriba creando una hamburguesa*/
@@ -95,8 +96,8 @@ nav a:hover{
 }
 
 .logo{
-  height: 6em;
-  width: 6em;
+  height: 7em;
+  width: 7em;
 }
 
 
@@ -166,10 +167,11 @@ nav a:hover{
     transform:scale(1,1);
     transform: rotate(45deg);
   }
+  
 }
 
 .construction{
-    margin-top: 6em;
+    
     margin-right: 50%;
     color:rgb(241, 247, 253);
     text-align: justify; 
