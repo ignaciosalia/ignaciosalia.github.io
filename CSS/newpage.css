@@ -1,5 +1,6 @@
 :root{
   --fondo-nav:rgb(241, 247, 253, 0.4);
+  --fondo-opciones:rgba(75, 122, 168, 0.6);
 }
 
 *, *::before, *::after{
@@ -29,7 +30,7 @@ nav{
   text-align: left;
   top:100%;
   left:0;
-  background-color: var(--fondo-nav);
+  background-color: var(--fondo-opciones);
   width:100%;
   transform:scale(1,0);
   transform-origin: top;
@@ -47,7 +48,7 @@ nav li{
 nav a {
   color: white;
   text-decoration: none;
-  font-size: 3em;
+  font-size: 3.5em;
   opacity: 0.1;
   transition: opacity 150ms ease-in-out;
 }
@@ -82,10 +83,10 @@ nav a:hover{
   position: absolute;
 }
 .nav-toggle-label span::before{
-  bottom: 30px;
+  bottom: 35px;
 }
 .nav-toggle-label span::after{
-  top:30px;
+  top:35px;
 }
 .nav-toggle:checked ~ nav{
   transform: scale(1,1);
@@ -204,6 +205,10 @@ color:rgb(241, 247, 253);
 width: 400px;
 height: 400px;
 }
+.ultexperiencia h3,
+ .ultimosclientes h3{
+  font-size: 2.5em;
+}
 .ultimosclientes > div:hover{
 opacity: 0.4;
 }
@@ -230,9 +235,10 @@ margin-left: 50%;
 }
 
 .jislcorp{
-height: 300px;
+  margin-top: 40px;
+height: 100px;
 background-image: url("../images/Logo-IgnacioSalia-monograma.png");
-background-size: 320px 320px;
+background-size: 120px 120px;
 background-repeat: no-repeat;
 background-position: center;
 }
