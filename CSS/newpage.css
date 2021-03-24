@@ -149,29 +149,6 @@ flex-direction: row;
 }
 
 
-
-#nextone, #nexttwo{
-font-size: 35px;
-width: 200px;
-margin-bottom: 2%;
-margin-left: auto;
-border: none;
-color:aliceblue;
-background: linear-gradient(45deg, #c57f69, #27386b, #354d91, #0a0092);
-background-size: 200% 200%;
-animation: gradient 5s ease infinite;
-border-radius: 7px;
-}
-#nextone{
-margin-top: 300px;
-margin-left: 85px;
-}
-
-#nexttwo{
-margin-bottom: 3%;
-margin-right: 20%;
-}
-
 .misclientes, .experiencia{
 display:none;
 color:rgb(241, 247, 253);
@@ -179,7 +156,6 @@ text-align: justify;
 font-family: 'Roboto Mono', monospace;
 width: 90vw;
 font-family: 'Anton';
-margin: 80px;
 border-radius: 15px;
 display: block;
 }
@@ -188,42 +164,40 @@ display: block;
 .clientes, .todas {
 color:rgb(241, 247, 253);
 font-family: 'Roboto Mono', monospace;
-padding-top: 25px;
+margin-top: 10rem;
 display: grid;
-grid-template-rows: auto auto;
+grid-template-rows: 220 200;
 text-align: center;
 
 }
 
-.ultimosclientes, .ultexperiencia{
+.ultimosclientes, 
+.ultexperiencia{
+
 display: grid;
-grid-template-columns: auto 1fr;
+grid-template-columns: auto auto;
 align-items: center;
 }
 .ultimosclientes > div{
 color:rgb(241, 247, 253);
-width: 400px;
-height: 400px;
+height: 500px;
 }
 .ultexperiencia h3,
  .ultimosclientes h3{
   font-size: 2.5em;
+  text-align: center;
 }
 .ultimosclientes > div:hover{
 opacity: 0.4;
 }
-.restaurantes{
-width: 400px;
-align-content: center;
 
-}
 .restaurantes > img{
 max-width: 100%;  
 }
 
 .laera, .jomati{
-margin: 0%;
-width: 400px;
+
+width: 300px;
 height: 300px;
 }
 .restaurantes, 
