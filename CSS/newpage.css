@@ -185,11 +185,18 @@ nav a:hover {
     padding-bottom: 5%;
 }
 
-.clientes,
+.clientes {
+    color: rgb(241, 247, 253);
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20rem;
+    display: grid;
+    text-align: center;
+}
+
 .todas {
     color: rgb(241, 247, 253);
     font-family: 'Roboto Mono', monospace;
-    margin-top: 10rem;
+    margin-top: 5rem;
     display: grid;
     text-align: center;
 }
@@ -199,11 +206,13 @@ nav a:hover {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
+    padding-top: 5%;
 }
 
 .ultimosclientes>div {
     color: rgb(241, 247, 253);
-    height: 500px;
+    height: 400px;
+    margin-top: 2%;
 }
 
 .ultexperiencia h3,
@@ -218,21 +227,21 @@ nav a:hover {
 
 .laera {
     width: 300px;
-    height: 300px;
+    height: 250px;
 }
 
 .jomati {
     width: 300px;
-    height: 300px;
+    height: 250px;
 }
 
-.restaurantes,
+.restaurantes {
+    margin-left: 20px;
+}
+
 .jomati {
-    margin: 15px;
-}
-
-.vcard {
-    margin-left: 50%;
+    margin: 5px;
+    width: 250px;
 }
 
 .jislcorp {
@@ -251,6 +260,7 @@ nav a:hover {
 }
 
 .redes {
+    margin-top: 15em;
     margin-left: 25%;
     display: flex;
     flex-direction: row;
@@ -347,4 +357,5 @@ nav a:hover {
 1.- crea la versi[on de telefeno listo
 2.- terminar la interaccion de las secciones listo
 3.- pormocionar los servicios
-4.- crear*/
+4.- crear pagina de educaci[on y de CV
+5.- margen en chrome no se ve como deber[ia*/
