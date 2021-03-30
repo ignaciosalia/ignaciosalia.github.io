@@ -171,14 +171,18 @@ nav a:hover {
 
 .misclientes,
 .experiencia {
+    background-color: #ccd6f0d2;
     display: none;
     color: rgb(241, 247, 253);
     text-align: justify;
     font-family: 'Roboto Mono', monospace;
-    width: 100vw;
+    width: 80vw;
     font-family: 'Anton';
     border-radius: 15px;
     display: block;
+    margin-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 }
 
 .clientes,
@@ -187,7 +191,6 @@ nav a:hover {
     font-family: 'Roboto Mono', monospace;
     margin-top: 10rem;
     display: grid;
-    grid-template-rows: 220 200;
     text-align: center;
 }
 
@@ -213,11 +216,11 @@ nav a:hover {
     opacity: 0.4;
 }
 
-.restaurantes>img {
-    max-width: 100%;
+.laera {
+    width: 300px;
+    height: 300px;
 }
 
-.laera,
 .jomati {
     width: 300px;
     height: 300px;
@@ -248,19 +251,14 @@ nav a:hover {
 }
 
 .redes {
-    margin-left: 30%;
+    margin-left: 25%;
     display: flex;
     flex-direction: row;
 }
 
-.reder>div {
-    padding: 50px;
-    margin: 50px;
-}
-
 .redes a {
     color: aliceblue;
-    font-size: 50px;
+    font-size: 5em;
     margin: 50px
 }
 
@@ -346,6 +344,7 @@ nav a:hover {
 
 
 /*TO DO 
-1.- crea la versi[on de telefeno
-2.- terminar la interaccion de las secciones
-3.- pormocionar los servicios*/
+1.- crea la versi[on de telefeno listo
+2.- terminar la interaccion de las secciones listo
+3.- pormocionar los servicios
+4.- crear*/
