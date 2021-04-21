@@ -1,78 +1,106 @@
-body{
-  background-color: #F0F0F0;
-  font-size: 40px;
-  font-family: 'Lato', sans-serif;
+body {
+    background-color: #F0F0F0;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
 }
-.titulo{
-  text-align: center;
-  border-bottom: #f99027;
 
+.titulo {
+    text-align: center;
+    border-bottom: #f99027;
 }
-.logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-.titulomain{
-  height: 370px;
 
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.titulomain {
+    height: 370px;
 }
 
 .redes {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
-}
-.facebook, .instagram{
-  text-align: center;
-  font-size: 65px;
-
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-.facebook > a, .instagram >a{
-  color: #9e6303;
-}
-.menuera{
-  display: grid;
-  grid-template-rows: auto auto auto auto auto;
-  text-align: center;
-}
-.submenu, .titulomain{
-  border-bottom: solid;
-  color: #f99027;
-}
-.submenu:hover{
-  background-color: #ffe7ca;
+.facebook,
+.instagram {
+    text-align: center;
+    font-size: 65px;
 }
 
-.titulomain > h1, .titulomain > h2, .submenu > h2, .subdesayuno > p, .subenchiladas > p, .arrachera, .newyork, .ribeye{
-  color: #3e3d3d;
-}
-.desayuno, .enchiladas, .pozole, .infantil, .postres{
-  font-size: 65px;
+.facebook>a,
+.instagram>a {
+    color: #9e6303;
 }
 
-.subdesayuno, .subenchiladas{
-  display: none;
-  border-top: solid;
-  color: #f99027;
+.menuera {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    text-align: center;
 }
 
-.carnes{
-  display: grid;
-  grid-template-columns: auto auto auto;
+.submenu,
+.titulomain {
+    border-bottom: solid;
+    color: #f99027;
 }
-.carnesdisp{
-  font-size: 35px;
+
+.submenu:hover {
+    background-color: #ffe7ca;
 }
-.barbacoaporsiones{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+
+.titulomain>h1,
+.titulomain>h2,
+.submenu>h2,
+.subdesayuno>p,
+.subenchiladas>p,
+.arrachera,
+.newyork,
+.ribeye {
+    color: #3e3d3d;
 }
-.aviso{
-  text-align: center;
+
+.desayuno,
+.enchiladas,
+.pozole,
+.infantil,
+.postres {
+    font-size: 65px;
+}
+
+.subdesayuno,
+.subenchiladas {
+    display: none;
+    border-top: solid;
+    color: #f99027;
+}
+
+.carnes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.carnesdisp {
+    font-size: 35px;
+}
+
+.barbacoaporsiones {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.aviso {
+    text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+    .titulomain {
+        height: 70%;
+    }
 }
