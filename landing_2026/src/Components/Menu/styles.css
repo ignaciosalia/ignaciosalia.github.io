@@ -1,0 +1,98 @@
+
+@import url("https://fonts.googleapis.com");
+
+.menu-body{
+    z-index: 10;
+    top: 0;
+    position: sticky;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-bottom: 0;
+    gap: 0em;
+    min-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3em;
+    margin-top: 0;
+    z-index: 1000;
+    top: 0;
+    position: sticky;
+}
+
+.menu-elemento{
+    color:white;
+    background-color: var(--menu);
+    font-family: "Geist Pixel", sans-serif !important;
+    font-size: 2em;
+    flex-grow: 1;
+    padding: 1;
+}
+
+.menu-elemento > button{
+    font-family: "Geist Pixel", sans-serif !important;
+    background-color: transparent;
+    font-size: 1em;
+    flex-grow: 1;
+    border: none;
+    width: 100%;
+}
+
+.menu-elemento > button:hover{
+    color: black;
+}
+
+.menu-elemento:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+ .menu-cellphone{
+     display: none;
+ }
+
+@media (max-width: 768px) {
+
+ .menu{
+     display: none;
+ }
+ .menu-cellphone{
+     list-style-type: none;
+     display: flex;
+     flex-direction: column;
+     padding: 0;
+     margin-bottom: 0;
+     gap: 1em;
+     min-width: 100%;
+     align-items: start;
+     justify-content: space-between;
+     margin-bottom: 3em;
+     margin-top: 0;
+
+ }
+
+.menu-elemento, .menu-elemento > button{
+     transition: step-end 0.3s ease-in-out;
+ }
+
+ .esconder > button, .esconder{
+     width: 0;
+     display: none;
+ }
+ .por-que-no-dibujar{
+     width: 100%;
+ }
+ .linea{
+     width: 1em;
+     height: 3px;
+     margin: 0.2em;
+     background-color: white;
+ }
+  .por-que-no-dibujar:hover{
+      background-color: var(--menu);
+      padding:0.1em;
+  }
+}

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com");
+
+#pagina_main {
+    padding: 2em;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: row;
+}
+
+#yo_mero {
+    min-width: 25%;
+}
+
+.titulo {
+    align-items: start;
+}
+.titulo > h1,
+p {
+    font-family: "Playwrite ID", cursive !important;
+}
+
+.titulo > h1 {
+    text-align: left;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: cursive;
+    color: #fff;
+    margin-bottom: 2em;
+}
+
+.titulo > p {
+    font-size: 1.5em;
+    text-align: justify;
+    line-height: 2;
+}
+
+.contenido {
+    padding: 2em;
+}
+.contenido > h2,
+p {
+    text-align: left;
+    font-family: "Geist Pixel", sans-serif !important;
+}
+.secciones {
+    margin-top: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.subtitulo > h2 {
+    font-family: "Geist Pixel", sans-serif !important;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: left;
+}
+
+.sub-tema {
+    min-width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    margin-left: 1em;
+}
+
+.sub-tema {
+    padding: 0;
+}
+
+.sub-tema > p {
+    font-size: 1.5em;
+    line-height: 2;
+}
