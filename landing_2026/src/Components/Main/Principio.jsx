@@ -7,7 +7,7 @@ const Principio = () => {
       <section className="presentacion">
         <picture id="yo_mero"></picture>
         <div className="titulo">
-          <h1>Ignacio Salia </h1>
+          <h1>Ignacio Salia what</h1>
           <p>
             Los demonios hacen que lo que no es se presente y a los ojos de los
             hombres como si lo fuese

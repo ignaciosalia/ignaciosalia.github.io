@@ -50,8 +50,11 @@ const Menu = () => {
             <button id='pasion' >Pasión</button>
           </li>
           <li className={verMenu ? "menu-elemento" : "esconder"}>
-            <button id='personal' >Personal</button>
-          </li>
+            <button id='personal' >Persondasdal</button>
+        </li>
+        <li className={verMenu ? "menu-elemento" : "esconder"}>
+          <button id='personal' >Personal</button>
+        </li>
       </menu>
     </div>
   )
